@@ -9,6 +9,10 @@
 
 **Lakshay Batta and Deepak Raina**
 
+<br>
+
+<img src="assets/sonogymlite_overview.jpg" alt="SonoGymLite Simulation Loop & Architecture" width="750">
+
 </div>
 
 ---
@@ -221,13 +225,13 @@ SonoGymLite/
 
 ## 📜 Citation
 
-If you use SonoGymLite in your research, please cite our paper:
+If you use SonoGymLite in your research, please cite:
 
 ```bibtex
 @article{batta2026sonogymlite,
   title={SonoGymLite: Lightweight Simulator for Learning Autonomous Robotic Ultrasound},
   author={Batta, Lakshay and Raina, Deepak},
-  journal={Journal of Medical Robotics Research (JMRR)},
+  note={Preprint / Code Release},
   year={2026}
 }
 ```
