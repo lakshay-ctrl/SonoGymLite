@@ -64,15 +64,11 @@ Unlike traditional GPU-intensive simulators, SonoGymLite executes at **50–120 
    - **Laptop (Apple M1):** $48.4\text{--}65.6\,\text{steps/s}$ ($15.2\text{--}24.9\,\text{ms/step}$).
    - Fast enough to run 100,000 steps of reinforcement learning in 14–35 minutes on standard hardware.
 
-2. **Compliant Surface Contact Modeling:**
-   - Kinematic surface-following controller ($k = 800\,\text{N/m}$, nominal $2.0\,\text{mm}$ indentation).
-   - Guarantees strict clinical contact force bounds ($F \in [2, 8]\,\text{N}$, nominal $4.0\,\text{N}$) with zero internal mesh penetration.
-
-3. **Dual Ultrasound Synthesis Engines:**
+2. **Dual Ultrasound Synthesis Engines:**
    - **Model-Based (MB):** Pure NumPy vectorized ray-tracing and convolution simulating Rayleigh speckle, bone reflection, acoustic shadows, and anechoic vascular fluid lumen (`US_LABEL_FLUID = 5`).
    - **Learning-Based (LB):** 2-channel deep U-Net / Pix2Pix GAN trained on real clinical volunteer sweeps (Cavalcanti Spine Dataset).
 
-4. **Three Clinical Benchmark Tasks:**
+3. **Three Clinical Benchmark Tasks:**
    - **Task 1 (Navigation):** Autonomous alignment of the ultrasound beam with anatomical landmarks (Lumbar Spine L4, Liver Portal Vein, Abdominal Aorta Bifurcation) across in-domain (`s0011`, `s0058`, `s0250`) and held-out test patients (`s0344`, `s0358`).
    - **Task 2 (3D Volumetric Reconstruction):** Autonomous sweeping trajectories (up to 97.3% coverage) coupled with deep U-Net slice segmentation and 3D voxel compounding, producing watertight surface meshes with sub-2 mm accuracy.
    - **Task 3 (Dual-Stage Needle Guidance):** Biopsy guide attachment (`robotic_probe_needle_guide.urdf`) with in-plane ultrasound needle visualization, specular reflection physics ($V = \cos\theta$), 24-azimuth bone corridor planning, and deflection compensation.
