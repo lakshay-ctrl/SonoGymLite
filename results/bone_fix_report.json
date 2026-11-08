@@ -1,0 +1,99 @@
+{
+  "description": "Comparison of bone class assignment before (CT HU > 250) vs after (TotalSegmentator skeleton mask bone_label.nii.gz)",
+  "per_patient_goal_slice": {
+    "aorta": {
+      "s0011": {
+        "bone_pixels_before_hu250": 994,
+        "bone_outside_skeleton_before": 894,
+        "share_outside_skeleton_before_pct": 89.94,
+        "bone_pixels_after_skeleton_mask": 311,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0058": {
+        "bone_pixels_before_hu250": 352,
+        "bone_outside_skeleton_before": 320,
+        "share_outside_skeleton_before_pct": 90.91,
+        "bone_pixels_after_skeleton_mask": 35,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0250": {
+        "bone_pixels_before_hu250": 131,
+        "bone_outside_skeleton_before": 131,
+        "share_outside_skeleton_before_pct": 100.0,
+        "bone_pixels_after_skeleton_mask": 0,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0344": {
+        "bone_pixels_before_hu250": 339,
+        "bone_outside_skeleton_before": 58,
+        "share_outside_skeleton_before_pct": 17.11,
+        "bone_pixels_after_skeleton_mask": 864,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0358": {
+        "bone_pixels_before_hu250": 212,
+        "bone_outside_skeleton_before": 37,
+        "share_outside_skeleton_before_pct": 17.45,
+        "bone_pixels_after_skeleton_mask": 833,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      }
+    },
+    "liver": {
+      "s0011": {
+        "bone_pixels_before_hu250": 505,
+        "bone_outside_skeleton_before": 17,
+        "share_outside_skeleton_before_pct": 3.37,
+        "bone_pixels_after_skeleton_mask": 748,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0058": {
+        "bone_pixels_before_hu250": 580,
+        "bone_outside_skeleton_before": 61,
+        "share_outside_skeleton_before_pct": 10.52,
+        "bone_pixels_after_skeleton_mask": 691,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0250": {
+        "bone_pixels_before_hu250": 207,
+        "bone_outside_skeleton_before": 36,
+        "share_outside_skeleton_before_pct": 17.39,
+        "bone_pixels_after_skeleton_mask": 236,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0344": {
+        "bone_pixels_before_hu250": 339,
+        "bone_outside_skeleton_before": 38,
+        "share_outside_skeleton_before_pct": 11.21,
+        "bone_pixels_after_skeleton_mask": 629,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      },
+      "s0358": {
+        "bone_pixels_before_hu250": 221,
+        "bone_outside_skeleton_before": 26,
+        "share_outside_skeleton_before_pct": 11.76,
+        "bone_pixels_after_skeleton_mask": 668,
+        "bone_outside_skeleton_after": 0,
+        "share_outside_skeleton_after_pct": 0.0
+      }
+    }
+  },
+  "summary": {
+    "aorta": {
+      "mean_share_outside_skeleton_before_pct": 63.08,
+      "mean_share_outside_skeleton_after_pct": 0.0
+    },
+    "liver": {
+      "mean_share_outside_skeleton_before_pct": 10.85,
+      "mean_share_outside_skeleton_after_pct": 0.0
+    }
+  }
+}

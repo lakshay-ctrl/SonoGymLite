@@ -1,0 +1,83 @@
+{
+  "task_id": "liver_gc_a2c",
+  "stage": "A",
+  "anatomy": "liver",
+  "algo": "a2c",
+  "git_commit": "e752e0a9d984910c96eed6c6d3a5d5bd877ecbfe",
+  "targets_sha256": {
+    "aorta": "5bbebdd5aa4462f666d397af39849b09850e137467525b0ecf33d8652e3cbe32",
+    "liver": "08470d4b93def970b2fd20bf28c6356d4d09e8fc706b86ea80a78cc6db8ffdd6",
+    "spine": "6fa85ee6bfd977cd4d0e56ccfd7270157c41b5cacf2e8e4547064f8c16cf6435"
+  },
+  "timestamp": "2026-10-28T04:32:17",
+  "train_cohort": {
+    "first_succ_pct": 3.3333333333333335,
+    "final_succ_pct": 0.0,
+    "pos_3d_error_mm": 96.03252177218928,
+    "frontal_error_mm": 82.0413100575777,
+    "elevation_error_mm": 37.45202031324533,
+    "rotation_error_deg": 13.030592736934631,
+    "quality": 0.5130797055363654
+  },
+  "held_out_cohort": {
+    "first_succ_pct": 3.3333333333333335,
+    "final_succ_pct": 0.0,
+    "pos_3d_error_mm": 97.0376209203631,
+    "frontal_error_mm": 82.78020148947584,
+    "elevation_error_mm": 37.74407419677641,
+    "rotation_error_deg": 15.531964087730234,
+    "quality": 0.720466309984525
+  },
+  "patients": {
+    "s0011": {
+      "split": "train",
+      "first_succ_pct": 3.3333333333333335,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 97.58133027392653,
+      "frontal_error_mm": 83.21745884944184,
+      "elevation_error_mm": 37.912651817166456,
+      "rotation_error_deg": 18.079971288073416,
+      "quality": 0.7290751341978706
+    },
+    "s0058": {
+      "split": "train",
+      "first_succ_pct": 3.3333333333333335,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 96.76220463903901,
+      "frontal_error_mm": 82.92743670965284,
+      "elevation_error_mm": 37.20821127849418,
+      "rotation_error_deg": 14.909359431415364,
+      "quality": 0.5497461058696111
+    },
+    "s0250": {
+      "split": "train",
+      "first_succ_pct": 3.3333333333333335,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 93.75403040360234,
+      "frontal_error_mm": 79.97903461363845,
+      "elevation_error_mm": 37.23519784407535,
+      "rotation_error_deg": 6.102447491315119,
+      "quality": 0.2604178765416145
+    },
+    "s0344": {
+      "split": "held_out",
+      "first_succ_pct": 3.3333333333333335,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 97.00924054445878,
+      "frontal_error_mm": 82.7505270515277,
+      "elevation_error_mm": 37.85034303079653,
+      "rotation_error_deg": 5.7950135791019175,
+      "quality": 0.7457005490859351
+    },
+    "s0358": {
+      "split": "held_out",
+      "first_succ_pct": 3.3333333333333335,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 97.06600129626742,
+      "frontal_error_mm": 82.809875927424,
+      "elevation_error_mm": 37.63780536275628,
+      "rotation_error_deg": 25.26891459635855,
+      "quality": 0.695232070883115
+    }
+  }
+}

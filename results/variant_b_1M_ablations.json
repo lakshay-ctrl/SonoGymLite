@@ -1,0 +1,686 @@
+{
+  "nominal": {
+    "summary_early": {
+      "train": {
+        "succ_first_pct": 93.33333333333333,
+        "succ_final_pct": 93.33333333333333,
+        "pos_3d_mm": 14.91217179993884,
+        "frontal_mm": 12.58638731321602,
+        "elevation_mm": 5.6590812491984375,
+        "rot_deg": 2.088702053117346,
+        "mean_ep_len": 21.522222222222222,
+        "mean_q": 0.48917591465844046
+      },
+      "held_out": {
+        "succ_first_pct": 33.333333333333336,
+        "succ_final_pct": 33.333333333333336,
+        "pos_3d_mm": 140.58868073152885,
+        "frontal_mm": 93.72962759011124,
+        "elevation_mm": 87.44523676383656,
+        "rot_deg": 24.492524277959046,
+        "mean_ep_len": 97.33333333333333,
+        "mean_q": 0.3810114398101966
+      }
+    },
+    "summary_full": {
+      "train": {
+        "succ_first_pct": 93.33333333333333,
+        "succ_final_pct": 3.3333333333333335,
+        "pos_3d_mm": 124.83030993633868,
+        "frontal_mm": 106.3491621590653,
+        "elevation_mm": 50.89725134117888,
+        "rot_deg": 18.116688659145257,
+        "mean_ep_len": 148.0111111111111,
+        "mean_q": 0.40109997851981055
+      },
+      "held_out": {
+        "succ_first_pct": 33.333333333333336,
+        "succ_final_pct": 1.6666666666666667,
+        "pos_3d_mm": 192.81379438905952,
+        "frontal_mm": 125.29325723911,
+        "elevation_mm": 123.54015045441068,
+        "rot_deg": 30.015737486225568,
+        "mean_ep_len": 139.03333333333333,
+        "mean_q": 0.31646715447306634
+      }
+    },
+    "by_patient_early": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 93.33333333333333,
+        "succ_final_pct": 93.33333333333333,
+        "pos_3d_mm": 12.66179016938421,
+        "frontal_mm": 10.733215290835135,
+        "elevation_mm": 4.749700253362133,
+        "rot_deg": 1.2883231665073112,
+        "mean_ep_len": 19.933333333333334,
+        "mean_q": 0.45798281788825984
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 86.66666666666667,
+        "succ_final_pct": 86.66666666666667,
+        "pos_3d_mm": 29.310125981762194,
+        "frontal_mm": 25.35517248843464,
+        "elevation_mm": 10.398759737935928,
+        "rot_deg": 4.935910738305879,
+        "mean_ep_len": 34.5,
+        "mean_q": 0.4807383199532827
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 100.0,
+        "pos_3d_mm": 2.764599248670115,
+        "frontal_mm": 1.6707741603782884,
+        "elevation_mm": 1.828783756297253,
+        "rot_deg": 0.041872254538848776,
+        "mean_ep_len": 10.133333333333333,
+        "mean_q": 0.5288066061337788
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 40.0,
+        "succ_final_pct": 40.0,
+        "pos_3d_mm": 87.10081791204257,
+        "frontal_mm": 63.04400369623159,
+        "elevation_mm": 49.28186852106997,
+        "rot_deg": 10.015469079774084,
+        "mean_ep_len": 84.86666666666666,
+        "mean_q": 0.4235012741883596
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 26.666666666666668,
+        "succ_final_pct": 26.666666666666668,
+        "pos_3d_mm": 194.07654355101513,
+        "frontal_mm": 124.41525148399087,
+        "elevation_mm": 125.60860500660314,
+        "rot_deg": 38.969579476144006,
+        "mean_ep_len": 109.8,
+        "mean_q": 0.3385216054320336
+      }
+    },
+    "by_patient_full": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 93.33333333333333,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 176.2237913038775,
+        "frontal_mm": 149.70238691530759,
+        "elevation_mm": 81.23625560105853,
+        "rot_deg": 22.044231810533,
+        "mean_ep_len": 144.03333333333333,
+        "mean_q": 0.2754611665010452
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 86.66666666666667,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 184.70917205787762,
+        "frontal_mm": 165.51981011867127,
+        "elevation_mm": 58.93011732113465,
+        "rot_deg": 29.648407530609685,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.3204264927903811
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 10.0,
+        "pos_3d_mm": 13.557966447260897,
+        "frontal_mm": 3.8252894432170224,
+        "elevation_mm": 12.525381101343465,
+        "rot_deg": 2.657426636293093,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.6074122762680054
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 40.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 141.87782648484685,
+        "frontal_mm": 100.74018480654034,
+        "elevation_mm": 81.4000329037132,
+        "rot_deg": 13.789764898778916,
+        "mean_ep_len": 139.23333333333332,
+        "mean_q": 0.3320873163143794
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 26.666666666666668,
+        "succ_final_pct": 3.3333333333333335,
+        "pos_3d_mm": 243.74976229327223,
+        "frontal_mm": 149.84632967167965,
+        "elevation_mm": 165.68026800510816,
+        "rot_deg": 46.241710073672216,
+        "mean_ep_len": 138.83333333333334,
+        "mean_q": 0.3008469926317533
+      }
+    },
+    "elapsed_sec": 8016.009836435318
+  },
+  "zero_orientation": {
+    "summary_early": {
+      "train": {
+        "succ_first_pct": 95.55555555555556,
+        "succ_final_pct": 95.55555555555556,
+        "pos_3d_mm": 9.967844012732515,
+        "frontal_mm": 6.7542147834411965,
+        "elevation_mm": 5.011237405017165,
+        "rot_deg": 1.4324713934947522,
+        "mean_ep_len": 18.955555555555552,
+        "mean_q": 0.5060588941971461
+      },
+      "held_out": {
+        "succ_first_pct": 31.666666666666664,
+        "succ_final_pct": 31.666666666666664,
+        "pos_3d_mm": 144.75627328233907,
+        "frontal_mm": 101.02086211667529,
+        "elevation_mm": 86.65289759330214,
+        "rot_deg": 24.141234854471122,
+        "mean_ep_len": 100.0,
+        "mean_q": 0.3668433114389579
+      }
+    },
+    "summary_full": {
+      "train": {
+        "succ_first_pct": 95.55555555555556,
+        "succ_final_pct": 3.3333333333333335,
+        "pos_3d_mm": 124.89644901849904,
+        "frontal_mm": 106.98495428718591,
+        "elevation_mm": 47.83899615770048,
+        "rot_deg": 16.541321819465086,
+        "mean_ep_len": 148.85555555555555,
+        "mean_q": 0.4185180176297824
+      },
+      "held_out": {
+        "succ_first_pct": 31.666666666666664,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 182.75031899148294,
+        "frontal_mm": 124.37245226770963,
+        "elevation_mm": 112.8490883410259,
+        "rot_deg": 31.1558909825646,
+        "mean_ep_len": 139.2,
+        "mean_q": 0.3393085745473703
+      }
+    },
+    "by_patient_early": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 96.66666666666667,
+        "succ_final_pct": 96.66666666666667,
+        "pos_3d_mm": 7.972877837548972,
+        "frontal_mm": 4.576235651192495,
+        "elevation_mm": 6.077955331960708,
+        "rot_deg": 0.5383821353627571,
+        "mean_ep_len": 15.533333333333333,
+        "mean_q": 0.4753349983692168
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 90.0,
+        "succ_final_pct": 90.0,
+        "pos_3d_mm": 19.14982049411589,
+        "frontal_mm": 14.09856206219727,
+        "elevation_mm": 6.9092921285546085,
+        "rot_deg": 3.723450869522778,
+        "mean_ep_len": 31.266666666666666,
+        "mean_q": 0.5134296766916912
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 100.0,
+        "pos_3d_mm": 2.780833706532683,
+        "frontal_mm": 1.5878466369338247,
+        "elevation_mm": 2.0464647545361796,
+        "rot_deg": 0.03558117559872167,
+        "mean_ep_len": 10.066666666666666,
+        "mean_q": 0.5294120075305303
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 33.33333333333333,
+        "succ_final_pct": 33.33333333333333,
+        "pos_3d_mm": 118.75729685487724,
+        "frontal_mm": 87.68000859027158,
+        "elevation_mm": 61.300150147727514,
+        "rot_deg": 15.64909467916721,
+        "mean_ep_len": 98.0,
+        "mean_q": 0.36852890203396477
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 30.0,
+        "succ_final_pct": 30.0,
+        "pos_3d_mm": 170.75524970980086,
+        "frontal_mm": 114.361715643079,
+        "elevation_mm": 112.00564503887676,
+        "rot_deg": 32.63337502977503,
+        "mean_ep_len": 102.0,
+        "mean_q": 0.36515772084395093
+      }
+    },
+    "by_patient_full": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 96.66666666666667,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 184.9426354857686,
+        "frontal_mm": 155.43909130116447,
+        "elevation_mm": 82.36256055306522,
+        "rot_deg": 22.243245264983443,
+        "mean_ep_len": 146.56666666666666,
+        "mean_q": 0.27869763433933253
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 90.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 178.46261334179542,
+        "frontal_mm": 160.85715399862298,
+        "elevation_mm": 51.43442883722087,
+        "rot_deg": 26.086393180794502,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.35180819978316624
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 10.0,
+        "pos_3d_mm": 11.284098227933091,
+        "frontal_mm": 4.658617561770303,
+        "elevation_mm": 9.719999082815349,
+        "rot_deg": 1.2943270126173196,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.6250482187668484
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 33.33333333333333,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 154.84130665072632,
+        "frontal_mm": 110.45755482856937,
+        "elevation_mm": 82.2778929175876,
+        "rot_deg": 21.368570245398846,
+        "mean_ep_len": 140.63333333333333,
+        "mean_q": 0.3186822078625361
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 30.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 210.65933133223956,
+        "frontal_mm": 138.28734970684988,
+        "elevation_mm": 143.42028376446422,
+        "rot_deg": 40.94321171973035,
+        "mean_ep_len": 137.76666666666668,
+        "mean_q": 0.35993494123220443
+      }
+    },
+    "elapsed_sec": 8819.54468035698
+  },
+  "random_orientation": {
+    "summary_early": {
+      "train": {
+        "succ_first_pct": 95.55555555555556,
+        "succ_final_pct": 95.55555555555556,
+        "pos_3d_mm": 9.400363484074994,
+        "frontal_mm": 6.53450807115578,
+        "elevation_mm": 4.40746879464899,
+        "rot_deg": 1.434768379631582,
+        "mean_ep_len": 19.233333333333334,
+        "mean_q": 0.5008349392149184
+      },
+      "held_out": {
+        "succ_first_pct": 38.33333333333333,
+        "succ_final_pct": 38.33333333333333,
+        "pos_3d_mm": 146.855265825496,
+        "frontal_mm": 101.06805049744983,
+        "elevation_mm": 88.67164679787342,
+        "rot_deg": 20.972268467331187,
+        "mean_ep_len": 94.53333333333333,
+        "mean_q": 0.3411658657590549
+      }
+    },
+    "summary_full": {
+      "train": {
+        "succ_first_pct": 95.55555555555556,
+        "succ_final_pct": 4.444444444444445,
+        "pos_3d_mm": 118.39401234348844,
+        "frontal_mm": 97.35882597105793,
+        "elevation_mm": 50.34258594730168,
+        "rot_deg": 17.160793975020415,
+        "mean_ep_len": 149.45555555555555,
+        "mean_q": 0.42364076084560826
+      },
+      "held_out": {
+        "succ_first_pct": 31.666666666666668,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 208.90454429515833,
+        "frontal_mm": 141.218822122593,
+        "elevation_mm": 128.41964533398263,
+        "rot_deg": 30.12580526592594,
+        "mean_ep_len": 138.21666666666667,
+        "mean_q": 0.27088494072357816
+      }
+    },
+    "by_patient_early": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 96.66666666666667,
+        "succ_final_pct": 96.66666666666667,
+        "pos_3d_mm": 8.66321879539305,
+        "frontal_mm": 7.785698792429502,
+        "elevation_mm": 2.304857452995354,
+        "rot_deg": 0.3764006834618137,
+        "mean_ep_len": 16.066666666666666,
+        "mean_q": 0.4672347229719162
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 90.0,
+        "succ_final_pct": 90.0,
+        "pos_3d_mm": 16.519460650481093,
+        "frontal_mm": 10.02884723058789,
+        "elevation_mm": 8.792760403350686,
+        "rot_deg": 3.877548154290855,
+        "mean_ep_len": 29.666666666666668,
+        "mean_q": 0.5063605715831121
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 100.0,
+        "pos_3d_mm": 3.0184110063508367,
+        "frontal_mm": 1.7889781904499458,
+        "elevation_mm": 2.1247885276009306,
+        "rot_deg": 0.05035630114207632,
+        "mean_ep_len": 11.966666666666667,
+        "mean_q": 0.5289095230897268
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 40.0,
+        "succ_final_pct": 40.0,
+        "pos_3d_mm": 116.14564380207517,
+        "frontal_mm": 81.86997843911112,
+        "elevation_mm": 67.82791485425963,
+        "rot_deg": 7.905619630639978,
+        "mean_ep_len": 84.3,
+        "mean_q": 0.3505581965049108
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 36.666666666666664,
+        "succ_final_pct": 36.666666666666664,
+        "pos_3d_mm": 177.5648878489168,
+        "frontal_mm": 120.26612255578856,
+        "elevation_mm": 109.51537874148723,
+        "rot_deg": 34.0389173040224,
+        "mean_ep_len": 104.76666666666667,
+        "mean_q": 0.33177353501319895
+      }
+    },
+    "by_patient_full": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 96.66666666666667,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 178.7575600619711,
+        "frontal_mm": 145.88736503132097,
+        "elevation_mm": 80.93701169996933,
+        "rot_deg": 21.996265915860036,
+        "mean_ep_len": 148.36666666666667,
+        "mean_q": 0.30429081151882803
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 90.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 159.27455114313162,
+        "frontal_mm": 141.81017039508995,
+        "elevation_mm": 54.23515856091089,
+        "rot_deg": 27.269041256224746,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.3644531413912773
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 100.0,
+        "succ_final_pct": 13.333333333333334,
+        "pos_3d_mm": 17.149925825362555,
+        "frontal_mm": 4.378942486762859,
+        "elevation_mm": 15.85558758102482,
+        "rot_deg": 2.217074752976455,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.6021783296267192
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 43.333333333333336,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 189.62279182452798,
+        "frontal_mm": 138.54304449171178,
+        "elevation_mm": 110.50320814043549,
+        "rot_deg": 16.24523571305924,
+        "mean_ep_len": 134.63333333333333,
+        "mean_q": 0.2375758551557859
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 20.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 228.18629676578868,
+        "frontal_mm": 143.8945997534742,
+        "elevation_mm": 146.33608252752978,
+        "rot_deg": 44.006374818792644,
+        "mean_ep_len": 141.8,
+        "mean_q": 0.30419402629137043
+      }
+    },
+    "elapsed_sec": 11219.598863601685
+  },
+  "zero_image": {
+    "summary_early": {
+      "train": {
+        "succ_first_pct": 1.1111111111111112,
+        "succ_final_pct": 1.1111111111111112,
+        "pos_3d_mm": 238.64093812194392,
+        "frontal_mm": 191.81729618541212,
+        "elevation_mm": 133.96961890085592,
+        "rot_deg": 22.134544917681012,
+        "mean_ep_len": 49.01111111111111,
+        "mean_q": 0.006299596495098537
+      },
+      "held_out": {
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 321.8735690114817,
+        "frontal_mm": 297.97558426158815,
+        "elevation_mm": 80.67340637214588,
+        "rot_deg": 29.55274728799231,
+        "mean_ep_len": 99.25,
+        "mean_q": 0.16778718868891396
+      }
+    },
+    "summary_full": {
+      "train": {
+        "succ_first_pct": 1.1111111111111112,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 241.32268565604355,
+        "frontal_mm": 193.65918746708437,
+        "elevation_mm": 135.9191053446185,
+        "rot_deg": 22.133858017693314,
+        "mean_ep_len": 49.55555555555555,
+        "mean_q": 0.0
+      },
+      "held_out": {
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 321.8735690114817,
+        "frontal_mm": 297.97558426158815,
+        "elevation_mm": 80.67340637214588,
+        "rot_deg": 29.55274728799231,
+        "mean_ep_len": 99.25,
+        "mean_q": 0.16778718868891396
+      }
+    },
+    "by_patient_early": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 234.9014099941082,
+        "frontal_mm": 182.02224403921403,
+        "elevation_mm": 136.91611862933496,
+        "rot_deg": 18.75591653671239,
+        "mean_ep_len": 47.93333333333333,
+        "mean_q": 0.0
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 247.69225885141802,
+        "frontal_mm": 200.68424347931358,
+        "elevation_mm": 139.19682899944613,
+        "rot_deg": 25.72173383226745,
+        "mean_ep_len": 50.86666666666667,
+        "mean_q": 0.0
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 3.3333333333333335,
+        "succ_final_pct": 3.3333333333333335,
+        "pos_3d_mm": 233.32914552030553,
+        "frontal_mm": 192.7454010377087,
+        "elevation_mm": 125.7959090737867,
+        "rot_deg": 21.925984384063206,
+        "mean_ep_len": 48.233333333333334,
+        "mean_q": 0.018898789485295612
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 234.7055101955522,
+        "frontal_mm": 188.51449715501337,
+        "elevation_mm": 127.33536114814618,
+        "rot_deg": 20.76436484286433,
+        "mean_ep_len": 48.5,
+        "mean_q": 0.0
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 409.0416278274112,
+        "frontal_mm": 407.43667136816293,
+        "elevation_mm": 34.01145159614556,
+        "rot_deg": 38.34112973312029,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.3355743773778279
+      }
+    },
+    "by_patient_full": {
+      "s0011": {
+        "pid": "s0011",
+        "split": "train",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 234.9014099941082,
+        "frontal_mm": 182.02224403921403,
+        "elevation_mm": 136.91611862933496,
+        "rot_deg": 18.75591653671239,
+        "mean_ep_len": 47.93333333333333,
+        "mean_q": 0.0
+      },
+      "s0058": {
+        "pid": "s0058",
+        "split": "train",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 247.69225885141802,
+        "frontal_mm": 200.68424347931358,
+        "elevation_mm": 139.19682899944613,
+        "rot_deg": 25.72173383226745,
+        "mean_ep_len": 50.86666666666667,
+        "mean_q": 0.0
+      },
+      "s0250": {
+        "pid": "s0250",
+        "split": "train",
+        "succ_first_pct": 3.3333333333333335,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 241.37438812260442,
+        "frontal_mm": 198.27107488272546,
+        "elevation_mm": 131.64436840507435,
+        "rot_deg": 21.92392368410011,
+        "mean_ep_len": 49.86666666666667,
+        "mean_q": 0.0
+      },
+      "s0344": {
+        "pid": "s0344",
+        "split": "held_out",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 234.7055101955522,
+        "frontal_mm": 188.51449715501337,
+        "elevation_mm": 127.33536114814618,
+        "rot_deg": 20.76436484286433,
+        "mean_ep_len": 48.5,
+        "mean_q": 0.0
+      },
+      "s0358": {
+        "pid": "s0358",
+        "split": "held_out",
+        "succ_first_pct": 0.0,
+        "succ_final_pct": 0.0,
+        "pos_3d_mm": 409.0416278274112,
+        "frontal_mm": 407.43667136816293,
+        "elevation_mm": 34.01145159614556,
+        "rot_deg": 38.34112973312029,
+        "mean_ep_len": 150.0,
+        "mean_q": 0.3355743773778279
+      }
+    },
+    "elapsed_sec": 6836.499833583832
+  }
+}

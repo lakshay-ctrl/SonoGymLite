@@ -1,0 +1,2561 @@
+{
+  "timestamp": "2026-10-28T13:12:25Z",
+  "perfect_reference_per_patient": {
+    "aorta": {
+      "s0011": {
+        "patient": "s0011",
+        "target_depth_mm": 143.54963311919576,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 287.0992662383916,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 187.09926623839152,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 137.09926623839155,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 87.09926623839154,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 203.00983803084867,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 103.00983803084871,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 53.00983803084869,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 3.0098380308487216,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 165.7568386468794,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 65.75683864687943,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 15.756838646879434,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.9081958235744878e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      },
+      "s0058": {
+        "patient": "s0058",
+        "target_depth_mm": 174.95219061226098,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 349.904381224522,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 249.9043812245219,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 199.90438122452196,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 149.9043812245219,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 247.41976073074238,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 147.41976073074238,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 97.41976073074235,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 47.41976073074232,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 202.0173886906072,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 102.0173886906072,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 52.01738869060722,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 2.0173886906071266,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          }
+        }
+      },
+      "s0250": {
+        "patient": "s0250",
+        "target_depth_mm": 150.3749933271661,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 300.74998665433225,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 200.7499866543322,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 150.74998665433222,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 100.74998665433222,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 212.66235500504197,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 112.66235500504196,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 62.66235500504195,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 12.662355005041901,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 173.63808575365505,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 73.63808575365506,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 23.638085753655076,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 4.336808689942018e-15,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      },
+      "s0344": {
+        "patient": "s0344",
+        "target_depth_mm": 108.7756039760378,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 217.55120795207563,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 117.55120795207557,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 67.55120795207563,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 17.551207952075604,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 153.83193439823742,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 53.83193439823745,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 3.8319343982374288,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.5612511283791264e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 125.60324847365911,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 25.603248473659132,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.734723475976807e-15,
+                "bone_free": true,
+                "stroke_feasible": true
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.734723475976807e-15,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      },
+      "s0358": {
+        "patient": "s0358",
+        "target_depth_mm": 96.86791786218973,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 193.73583572437948,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 93.73583572437944,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 43.735835724379484,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 3.122502256758253e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 136.9919231995517,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 36.99192319955173,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.0408340855860843e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.0408340855860843e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 111.8534369071476,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 11.853436907147623,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 3.469446951953614e-15,
+                "bone_free": true,
+                "stroke_feasible": true
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 3.469446951953614e-15,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "liver": {
+      "s0011": {
+        "patient": "s0011",
+        "target_depth_mm": 153.73731139315072,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 307.4746227863015,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 207.4746227863014,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 157.47462278630147,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 107.47462278630147,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 217.4173908149695,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 117.41739081496952,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 67.41739081496951,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 17.417390814969462,
+                "bone_free": false,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 177.52055623464977,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 77.5205562346498,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 27.52055623464982,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.734723475976807e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      },
+      "s0058": {
+        "patient": "s0058",
+        "target_depth_mm": 189.15817114901878,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 378.3163422980376,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 278.3163422980375,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 228.3163422980376,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 178.3163422980375,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 267.5100510726335,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 167.51005107263347,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 117.51005107263346,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 67.5100510726335,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 218.4210420646066,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 118.42104206460662,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 68.42104206460664,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 18.421042064606645,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          }
+        }
+      },
+      "s0250": {
+        "patient": "s0250",
+        "target_depth_mm": 177.32898031032195,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 354.65796062064396,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 254.65796062064382,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 204.6579606206439,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 154.65796062064382,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 250.78104895664887,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 150.78104895664887,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 100.78104895664886,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 50.781048956648895,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 204.76186903457247,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 104.76186903457248,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 54.76186903457251,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 4.761869034572511,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          }
+        }
+      },
+      "s0344": {
+        "patient": "s0344",
+        "target_depth_mm": 151.58552362781873,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 303.1710472556375,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 203.1710472556375,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 153.17104725563752,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 103.1710472556375,
+                "bone_free": true,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 214.37430337388852,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 114.37430337388854,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 64.37430337388852,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 14.374303373888553,
+                "bone_free": false,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 175.03588574354305,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 75.03588574354309,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 25.035885743543098,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 2.7755575615628914e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      },
+      "s0358": {
+        "patient": "s0358",
+        "target_depth_mm": 141.12347349289044,
+        "angles": {
+          "30": {
+            "req_stroke_mm": 282.24694698578094,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 182.24694698578088,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 132.24694698578094,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 82.24694698578091,
+                "bone_free": false,
+                "stroke_feasible": false
+              }
+            }
+          },
+          "45": {
+            "req_stroke_mm": 199.57873018284565,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 99.57873018284567,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 49.57873018284565,
+                "bone_free": true,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": true,
+                "verdict": "HIT",
+                "dist_mm": 1.3877787807814457e-14,
+                "bone_free": true,
+                "stroke_feasible": true
+              }
+            }
+          },
+          "60": {
+            "req_stroke_mm": 162.95535082019063,
+            "results_by_length": {
+              "100": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 62.95535082019066,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "150": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 12.955350820190674,
+                "bone_free": false,
+                "stroke_feasible": false
+              },
+              "200": {
+                "is_hit": false,
+                "verdict": "MISS",
+                "dist_mm": 1.3877787807814457e-14,
+                "bone_free": false,
+                "stroke_feasible": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "table_rows": [
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 200.89523868472497,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 150.9426830216031,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 101.39790763421773,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 113.10402468093636,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 63.67300476668676,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 17.007717142154377,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 74.43889055038552,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 25.80577407908184,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/3",
+      "n_feasible": 67,
+      "feas_rate_str": "17.9% [10.6, 28.7] (12/67)",
+      "feas_rate_pct": 17.91044776119403,
+      "median_tip_dist_mm": 8.473318031515163,
+      "median_pos_error_mm": 3.005577134469649,
+      "median_tilt_error_deg": 2.592793464081733
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 105.68517250938626,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 55.76636945664012,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "1/2",
+      "n_feasible": 50,
+      "feas_rate_str": "76.0% [62.6, 85.7] (38/50)",
+      "feas_rate_pct": 76.0,
+      "median_tip_dist_mm": 13.843238458248383,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 45.67432659665943,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "1/2",
+      "n_feasible": 50,
+      "feas_rate_str": "76.0% [62.6, 85.7] (38/50)",
+      "feas_rate_pct": 76.0,
+      "median_tip_dist_mm": 4.443045243871272,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/2",
+      "n_feasible": 100,
+      "feas_rate_str": "69.0% [59.4, 77.2] (69/100)",
+      "feas_rate_pct": 69.0,
+      "median_tip_dist_mm": 3.8346801771326513,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 20.141862908368214,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "2/2",
+      "n_feasible": 100,
+      "feas_rate_str": "69.0% [59.4, 77.2] (69/100)",
+      "feas_rate_pct": 69.0,
+      "median_tip_dist_mm": 3.543137606445603,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "aorta_gc",
+      "ckpt_file": "ppo_mb_aorta_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/2",
+      "n_feasible": 100,
+      "feas_rate_str": "69.0% [59.4, 77.2] (69/100)",
+      "feas_rate_pct": 69.0,
+      "median_tip_dist_mm": 3.543137606445603,
+      "median_pos_error_mm": 2.642949295154448,
+      "median_tilt_error_deg": 1.0657379659685657
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 255.29401957957373,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 205.29483520184993,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 155.29617577553216,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 151.30686228282534,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 101.30981778873829,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 51.31852562251001,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 105.1425803520705,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 55.15093370900138,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "1/3",
+      "n_feasible": 34,
+      "feas_rate_str": "58.8% [42.2, 73.6] (20/34)",
+      "feas_rate_pct": 58.82352941176471,
+      "median_tip_dist_mm": 7.108085072216094,
+      "median_pos_error_mm": 2.996549749805477,
+      "median_tilt_error_deg": 0.9158474270703436
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 192.72592954708418,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 143.88779600055432,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 96.27849089870344,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 107.60622811539028,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 60.11806265491373,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "1/2",
+      "n_feasible": 50,
+      "feas_rate_str": "8.0% [3.2, 18.8] (4/50)",
+      "feas_rate_pct": 8.0,
+      "median_tip_dist_mm": 16.17033330537256,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 70.34417167762086,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/2",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 24.249613200087612,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "Goal-Conditioned PPO",
+      "policy_type_key": "liver_gc",
+      "ckpt_file": "ppo_mb_liver_final_model.zip",
+      "trained_steps": 100352,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "1/2",
+      "n_feasible": 50,
+      "feas_rate_str": "100.0% [92.9, 100.0] (50/50)",
+      "feas_rate_pct": 100.0,
+      "median_tip_dist_mm": 4.727582473110191,
+      "median_pos_error_mm": 2.7990524012185527,
+      "median_tilt_error_deg": 0.6717777924822821
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 201.08598968233923,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 151.11975194048586,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 101.38778292043598,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 112.91278924391244,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 63.61984616777018,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 19.869276717978344,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 74.48795336853703,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 26.995434546417798,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 0)",
+      "policy_type_key": "aorta_io_s0",
+      "ckpt_file": "ppo_scale_aorta_s0_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/3",
+      "n_feasible": 67,
+      "feas_rate_str": "13.4% [7.2, 23.6] (9/67)",
+      "feas_rate_pct": 13.432835820895523,
+      "median_tip_dist_mm": 7.920232380207322,
+      "median_pos_error_mm": 3.1771363673878543,
+      "median_tilt_error_deg": 2.8423871075303744
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 200.80965232034924,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 150.9404921702258,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 101.4578564801807,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 113.04842063003557,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 63.74955779086555,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 19.226585051308465,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 74.75903593612922,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 26.133064369854125,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 1)",
+      "policy_type_key": "aorta_io_s1",
+      "ckpt_file": "ppo_scale_aorta_s1_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/3",
+      "n_feasible": 67,
+      "feas_rate_str": "19.4% [11.7, 30.4] (13/67)",
+      "feas_rate_pct": 19.402985074626866,
+      "median_tip_dist_mm": 7.867786165234262,
+      "median_pos_error_mm": 3.091527059599872,
+      "median_tilt_error_deg": 2.3345800971547823
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 200.61477735717435,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 150.66685157410998,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 100.86108132266659,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 112.76515599327621,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 63.05938991098113,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 18.433737247174935,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 74.07780420960142,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 24.904134093934204,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "Image-Only PPO (Seed 2)",
+      "policy_type_key": "aorta_io_s2",
+      "ckpt_file": "ppo_scale_aorta_s2_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/3",
+      "n_feasible": 67,
+      "feas_rate_str": "20.9% [12.9, 32.1] (14/67)",
+      "feas_rate_pct": 20.8955223880597,
+      "median_tip_dist_mm": 7.195848640158076,
+      "median_pos_error_mm": 2.6944392022126884,
+      "median_tilt_error_deg": 2.073730895745701
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 200.8368064532876,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 150.90903189494054,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 101.23557357442776,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 112.90878862240807,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 63.47626462320562,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 19.176533005487247,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 74.44159783808924,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "0/3",
+      "n_feasible": 0,
+      "feas_rate_str": "N/A (0 feasible)",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": 26.01087767006871,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Aorta Bifurcation",
+      "target_key": "aorta",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "**Image-Only PPO (Mean \u00b1 Std)**",
+      "policy_type_key": "aorta_io_mean",
+      "ckpt_file": "ppo_scale_aorta_s{0,1,2}_final.zip",
+      "trained_steps": 300032,
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "2/3",
+      "n_feasible": 67,
+      "feas_rate_str": "**17.9 \u00b1 3.2%**",
+      "feas_rate_pct": 17.910447761194032,
+      "median_tip_dist_mm": 7.661289061866554,
+      "median_pos_error_mm": 2.987700876400138,
+      "median_tilt_error_deg": 2.416899366810286
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "In-Domain Train",
+      "cohort_key": "train",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 30,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 45,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 100.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 150.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    },
+    {
+      "target": "Liver Portal Vein",
+      "target_key": "liver",
+      "cohort": "Held-Out Test",
+      "cohort_key": "held_out",
+      "policy_type": "*Image-Only PPO*",
+      "policy_type_key": "liver_io",
+      "ckpt_file": "None (4c trains liver-centre)",
+      "trained_steps": "Not Evaluated",
+      "theta": 60,
+      "needle_length_mm": 200.0,
+      "perfect_str": "-",
+      "n_feasible": "-",
+      "feas_rate_str": "*Not Evaluated*",
+      "feas_rate_pct": null,
+      "median_tip_dist_mm": null,
+      "median_pos_error_mm": null,
+      "median_tilt_error_deg": null
+    }
+  ]
+}

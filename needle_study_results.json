@@ -1,0 +1,596 @@
+{
+  "patients": {
+    "s0011": {
+      "is_train": true,
+      "targets": {
+        "Portal Vein": {
+          "target_depth_mm": 153.7400923316594,
+          "skin_z": 0.9952279841050231,
+          "internal_z": 0.8414878917733637,
+          "orientation": "prone",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 307.4801846633189,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 11,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7743093992904041,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 217.42132365592462,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": true,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 10,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7911301971575594,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 177.52376738584297,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 9,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8759250780708865,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        },
+        "Aorta Bifurcation": {
+          "target_depth_mm": 143.56430009844246,
+          "skin_z": 1.0333819153350787,
+          "internal_z": 0.8898176152366363,
+          "orientation": "supine",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 287.128600196885,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.807157705724325,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 203.0305802718184,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7594360024043264,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 165.77377461571194,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 1.0693451045628428,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        }
+      }
+    },
+    "s0058": {
+      "is_train": true,
+      "targets": {
+        "Portal Vein": {
+          "target_depth_mm": 189.18019974799194,
+          "skin_z": 1.0594640770178436,
+          "internal_z": 0.8702838772698517,
+          "orientation": "prone",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 378.3603994959839,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 11,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9170190980414858,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 267.5412042160614,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 13,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.6239186273362713,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 218.44647849970065,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 6,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9873043444095841,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        },
+        "Aorta Bifurcation": {
+          "target_depth_mm": 174.9501952923105,
+          "skin_z": 1.0840202782077564,
+          "internal_z": 0.9090700829154459,
+          "orientation": "supine",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 349.90039058462105,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8155212963444161,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 247.41693892220712,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9592730589069471,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 202.01508469358615,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8536385589202092,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        }
+      }
+    },
+    "s0250": {
+      "is_train": true,
+      "targets": {
+        "Portal Vein": {
+          "target_depth_mm": 177.32534810501565,
+          "skin_z": 1.0254626837031202,
+          "internal_z": 0.8481373355981046,
+          "orientation": "prone",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 354.65069621003136,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 12,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.794667299455326,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 250.77591224264336,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 14,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9022694619618291,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 204.7576749251498,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 15,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7196401611324779,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        },
+        "Aorta Bifurcation": {
+          "target_depth_mm": 150.40589006160377,
+          "skin_z": 1.033406057852457,
+          "internal_z": 0.8830001677908533,
+          "orientation": "supine",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 300.8117801232076,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 22,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.779110992838049,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 212.7060495859168,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8205073431814076,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 173.6737622295444,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8113737131350199,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        }
+      }
+    },
+    "s0344": {
+      "is_train": false,
+      "targets": {
+        "Portal Vein": {
+          "target_depth_mm": 151.58547892433515,
+          "skin_z": 0.9740200001001358,
+          "internal_z": 0.8224345211758006,
+          "orientation": "prone",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 303.17095784867035,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 6,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 1.018251947981501,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 214.37424015361574,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": true,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 9,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.8539323162633716,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 175.0358341244065,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 7,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9185934644509695,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        },
+        "Aorta Bifurcation": {
+          "target_depth_mm": 108.69564929649955,
+          "skin_z": 0.9831152344860372,
+          "internal_z": 0.8744195851895377,
+          "orientation": "supine",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 217.39129859299914,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7707970430786698,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 153.71886140605926,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7467436185163197,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 125.51092476215035,
+              "reachable_100mm": false,
+              "reachable_150mm": true,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 1.0183302505865903,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        }
+      }
+    },
+    "s0358": {
+      "is_train": false,
+      "targets": {
+        "Portal Vein": {
+          "target_depth_mm": 141.24722460863148,
+          "skin_z": 0.9638894722063156,
+          "internal_z": 0.8226422475976841,
+          "orientation": "prone",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 282.494449217263,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": false,
+              "naive_bone_collision": true,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 9,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.9024069675451312,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 199.75374068908545,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 10,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7737978764082459,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 163.09824630016186,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": true,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 8,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.786649865573108,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        },
+        "Aorta Bifurcation": {
+          "target_depth_mm": 96.86776545052045,
+          "skin_z": 0.9745092197093367,
+          "internal_z": 0.8776414542588162,
+          "orientation": "supine",
+          "angles": {
+            "30": {
+              "angle_deg": 30,
+              "stroke_req_mm": 193.73553090104093,
+              "reachable_100mm": false,
+              "reachable_150mm": false,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.834176211297214,
+              "visibility_specular": 0.8660254037844387,
+              "visibility_cnr": 9.378841635528705
+            },
+            "45": {
+              "angle_deg": 45,
+              "stroke_req_mm": 136.99170765690195,
+              "reachable_100mm": false,
+              "reachable_150mm": true,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.7414923283708661,
+              "visibility_specular": 0.7071067811865476,
+              "visibility_cnr": 7.810505655231705
+            },
+            "60": {
+              "angle_deg": 60,
+              "stroke_req_mm": 111.85326091731103,
+              "reachable_100mm": false,
+              "reachable_150mm": true,
+              "reachable_200mm": true,
+              "naive_bone_collision": false,
+              "planned_bone_collision": false,
+              "safe_azimuth_count": 24,
+              "uncompensated_tip_error_mm": 3.0,
+              "compensated_tip_error_mm": 0.745658013009865,
+              "visibility_specular": 0.5000000000000001,
+              "visibility_cnr": 6.170910347047819
+            }
+          }
+        }
+      }
+    }
+  },
+  "summary": {
+    "30": {
+      "mean_stroke_mm": 297.51242878340213,
+      "std_stroke_mm": 54.9639327065574,
+      "reachable_100mm_pct": 0.0,
+      "reachable_150mm_pct": 0.0,
+      "reachable_200mm_pct": 10.0,
+      "naive_bone_collision_pct": 10.0,
+      "planned_bone_collision_pct": 0.0,
+      "mean_uncomp_error_mm": 3.0,
+      "std_uncomp_error_mm": 0.0,
+      "mean_comp_error_mm": 0.8413417961596522,
+      "std_comp_error_mm": 0.07626328919739113,
+      "visibility_specular": 0.8660254037844387,
+      "visibility_db": -1.2493873660829988,
+      "visibility_cnr": 9.378841635528705
+    },
+    "45": {
+      "mean_stroke_mm": 210.3730558800234,
+      "std_stroke_mm": 38.8653695374878,
+      "reachable_100mm_pct": 0.0,
+      "reachable_150mm_pct": 10.0,
+      "reachable_200mm_pct": 30.0,
+      "naive_bone_collision_pct": 20.0,
+      "planned_bone_collision_pct": 0.0,
+      "mean_uncomp_error_mm": 3.0,
+      "std_uncomp_error_mm": 0.0,
+      "mean_comp_error_mm": 0.7972500830507144,
+      "std_comp_error_mm": 0.08874417038015196,
+      "visibility_specular": 0.7071067811865476,
+      "visibility_db": -3.0102999566398116,
+      "visibility_cnr": 7.810505655231705
+    },
+    "60": {
+      "mean_stroke_mm": 171.76888084535656,
+      "std_stroke_mm": 31.73344134385139,
+      "reachable_100mm_pct": 0.0,
+      "reachable_150mm_pct": 20.0,
+      "reachable_200mm_pct": 70.0,
+      "naive_bone_collision_pct": 10.0,
+      "planned_bone_collision_pct": 0.0,
+      "mean_uncomp_error_mm": 3.0,
+      "std_uncomp_error_mm": 0.0,
+      "mean_comp_error_mm": 0.8786458553851553,
+      "std_comp_error_mm": 0.11219204980807809,
+      "visibility_specular": 0.5000000000000001,
+      "visibility_db": -6.0205999132796215,
+      "visibility_cnr": 6.170910347047819
+    }
+  },
+  "visibility": {
+    "30": {
+      "specular": 0.8660254037844387,
+      "db": -1.2493873660829988,
+      "cnr": 9.378841635528705
+    },
+    "45": {
+      "specular": 0.7071067811865476,
+      "db": -3.0102999566398116,
+      "cnr": 7.810505655231705
+    },
+    "60": {
+      "specular": 0.5000000000000001,
+      "db": -6.0205999132796215,
+      "cnr": 6.170910347047819
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "Spine MB Goal-A2C (100k)": {
+    "name": "Spine MB Goal-A2C (100k)",
+    "ckpt": "a2c_checkpoints/spine_mb/a2c_spine_mb_model_100000_steps.zip",
+    "sim_mode": "conv",
+    "is_gc": true,
+    "train": {
+      "n_trials": 100,
+      "pos_mean": 82.25661819142307,
+      "pos_std": 29.609702856478492,
+      "rot_mean": 8.005403138364905,
+      "rot_std": 6.627215014005821,
+      "final_success_rate": 0.0,
+      "first_success_rate": 3.0,
+      "early_term": {
+        "pos_mean": 82.25661819142307,
+        "pos_std": 29.609702856478492,
+        "rot_mean": 8.005403138364905,
+        "rot_std": 6.627215014005821,
+        "success_rate": 0.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    },
+    "held_out": {
+      "n_trials": 100,
+      "pos_mean": 79.14251365201623,
+      "pos_std": 31.61315996761853,
+      "rot_mean": 20.730009285419122,
+      "rot_std": 17.217291417585294,
+      "final_success_rate": 0.0,
+      "first_success_rate": 4.0,
+      "early_term": {
+        "pos_mean": 79.14251365201623,
+        "pos_std": 31.61315996761853,
+        "rot_mean": 20.730009285419122,
+        "rot_std": 17.217291417585294,
+        "success_rate": 0.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    }
+  },
+  "Spine LB Goal-PPO (100k)": {
+    "name": "Spine LB Goal-PPO (100k)",
+    "ckpt": "ppo_checkpoints/spine_lb/ppo_lb_spine_final_model.zip",
+    "sim_mode": "unet",
+    "is_gc": true,
+    "train": {
+      "n_trials": 100,
+      "pos_mean": 0.849248988387813,
+      "pos_std": 0.800984140825051,
+      "rot_mean": 0.16775761146220966,
+      "rot_std": 0.5221271677692882,
+      "final_success_rate": 100.0,
+      "first_success_rate": 100.0,
+      "early_term": {
+        "pos_mean": 0.849248988387813,
+        "pos_std": 0.800984140825051,
+        "rot_mean": 0.16775761146220966,
+        "rot_std": 0.5221271677692882,
+        "success_rate": 100.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    },
+    "held_out": {
+      "n_trials": 100,
+      "pos_mean": 2.2659331295184386,
+      "pos_std": 1.4237195815214727,
+      "rot_mean": 11.575923192100058,
+      "rot_std": 11.418910951993599,
+      "final_success_rate": 51.0,
+      "first_success_rate": 100.0,
+      "early_term": {
+        "pos_mean": 2.2659331295184386,
+        "pos_std": 1.4237195815214727,
+        "rot_mean": 11.575923192100058,
+        "rot_std": 11.418910951993599,
+        "success_rate": 51.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    }
+  },
+  "Spine LB Goal-SAC (100k)": {
+    "name": "Spine LB Goal-SAC (100k)",
+    "ckpt": "sac_checkpoints/spine_lb/sac_lb_spine_final_model.zip",
+    "sim_mode": "unet",
+    "is_gc": true,
+    "train": {
+      "n_trials": 100,
+      "pos_mean": 2.282021445661426,
+      "pos_std": 0.5015523575271764,
+      "rot_mean": 0.28615973748854473,
+      "rot_std": 0.393799544054438,
+      "final_success_rate": 100.0,
+      "first_success_rate": 100.0,
+      "early_term": {
+        "pos_mean": 2.282021445661426,
+        "pos_std": 0.5015523575271764,
+        "rot_mean": 0.28615973748854473,
+        "rot_std": 0.393799544054438,
+        "success_rate": 100.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    },
+    "held_out": {
+      "n_trials": 100,
+      "pos_mean": 4.134903520094044,
+      "pos_std": 1.9048993584241498,
+      "rot_mean": 5.3538512525659545,
+      "rot_std": 3.7149150143918606,
+      "final_success_rate": 77.0,
+      "first_success_rate": 100.0,
+      "early_term": {
+        "pos_mean": 4.134903520094044,
+        "pos_std": 1.9048993584241498,
+        "rot_mean": 5.3538512525659545,
+        "rot_std": 3.7149150143918606,
+        "success_rate": 77.0,
+        "steps_mean": 300.0,
+        "steps_std": 0.0
+      }
+    }
+  },
+  "Spine LB Image-Only PPO (Run 4b, 300k)": {
+    "name": "Spine LB Image-Only PPO (Run 4b, 300k)",
+    "ckpt": "ppo_checkpoints/spine_lb/ppo_lb_spine_image_only_final.zip",
+    "sim_mode": "unet",
+    "is_gc": false,
+    "train": {
+      "n_trials": 100,
+      "pos_mean": 303.9987318394822,
+      "pos_std": 85.16001001178542,
+      "rot_mean": 19.956090769348428,
+      "rot_std": 28.654560402680403,
+      "final_success_rate": 0.0,
+      "first_success_rate": 7.0,
+      "early_term": {
+        "pos_mean": 303.9987318394822,
+        "pos_std": 85.16001001178542,
+        "rot_mean": 19.956090769348428,
+        "rot_std": 28.654560402680403,
+        "success_rate": 0.0,
+        "steps_mean": 78.43,
+        "steps_std": 25.076784084088615
+      }
+    },
+    "held_out": {
+      "n_trials": 100,
+      "pos_mean": 344.61579813231003,
+      "pos_std": 59.865612404813355,
+      "rot_mean": 44.16745480847385,
+      "rot_std": 41.02987265159385,
+      "final_success_rate": 0.0,
+      "first_success_rate": 5.0,
+      "early_term": {
+        "pos_mean": 344.61579813231003,
+        "pos_std": 59.865612404813355,
+        "rot_mean": 44.16745480847385,
+        "rot_std": 41.02987265159385,
+        "success_rate": 0.0,
+        "steps_mean": 103.4,
+        "steps_std": 43.71041065924684
+      }
+    },
+    "early_term_train": {
+      "pos_mean": 303.9987318394822,
+      "pos_std": 85.16001001178542,
+      "rot_mean": 19.956090769348428,
+      "rot_std": 28.654560402680403,
+      "success_rate": 0.0,
+      "steps_mean": 78.43,
+      "steps_std": 25.076784084088615
+    },
+    "early_term_held_out": {
+      "pos_mean": 344.61579813231003,
+      "pos_std": 59.865612404813355,
+      "rot_mean": 44.16745480847385,
+      "rot_std": 41.02987265159385,
+      "success_rate": 0.0,
+      "steps_mean": 103.4,
+      "steps_std": 43.71041065924684
+    }
+  }
+}

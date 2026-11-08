@@ -1,0 +1,27 @@
+{
+  "policy": "ppo_mb_spine_image_only_v1_s0_final",
+  "anatomy": "spine",
+  "sim_mode": "conv",
+  "in_domain": {
+    "pos_mean": 32.76083586850198,
+    "pos_std": 1.0624783869408359,
+    "rot_mean": 14.385363970100913,
+    "rot_std": 11.970378877824063,
+    "quality_mean": 0.5463330268859864,
+    "quality_std": 0.07771083596889042,
+    "success_rate": 0.0,
+    "traj_len_mean": 0.015887877088971436,
+    "steps_mean": 150.0
+  },
+  "out_of_domain": {
+    "pos_mean": 32.21238537021702,
+    "pos_std": 0.23245894619628338,
+    "rot_mean": 12.920712318703535,
+    "rot_std": 9.23412844092274,
+    "quality_mean": 0.5522429823875428,
+    "quality_std": 0.012489449977874767,
+    "success_rate": 0.0,
+    "traj_len_mean": 0.016740400558774127,
+    "steps_mean": 150.0
+  }
+}

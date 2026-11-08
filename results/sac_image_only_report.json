@@ -1,0 +1,218 @@
+{
+  "spine_mb": {
+    "name": "Spine MB Image-Only SAC",
+    "ckpt_path": "/home/user/workspace/lakshya/ct_us/sac_image_only/spine_mb/sac_image_only_spine_mb_final.zip",
+    "wall_clock_sec": 15577.49614739418,
+    "ep_rew_mean": 71.19932505000001,
+    "eval": {
+      "fixed": {
+        "Train": {
+          "success_rate": 41.0,
+          "pos_err_mean": 6.1644893018642275,
+          "pos_err_std": 3.7279281074974815,
+          "rot_err_mean": 2.453388766218498,
+          "rot_err_std": 4.3893418467620124,
+          "steps_mean": 300.0,
+          "steps_std": 0.0,
+          "eval_time_sec": 93.57917428016663,
+          "first_success_rate": 100.0
+        },
+        "Held-Out": {
+          "success_rate": 1.0,
+          "pos_err_mean": 115.9217766438063,
+          "pos_err_std": 94.44754357915933,
+          "rot_err_mean": 31.13419025883563,
+          "rot_err_std": 27.491674211041207,
+          "steps_mean": 267.85,
+          "steps_std": 55.56300477835949,
+          "eval_time_sec": 93.91580986976624,
+          "first_success_rate": 53.0
+        }
+      },
+      "early_term": {
+        "Train": {
+          "success_rate": 100.0,
+          "pos_err_mean": 3.0410464159412647,
+          "pos_err_std": 1.2788231808180697,
+          "rot_err_mean": 0.7493894132893211,
+          "rot_err_std": 1.4196304321711002,
+          "steps_mean": 10.34,
+          "steps_std": 3.6557352201711764,
+          "eval_time_sec": 24.129669666290283
+        },
+        "Held-Out": {
+          "success_rate": 53.0,
+          "pos_err_mean": 65.14666711437805,
+          "pos_err_std": 90.90449324393063,
+          "rot_err_mean": 16.207272190633226,
+          "rot_err_std": 23.29266519461974,
+          "steps_mean": 150.16,
+          "steps_std": 119.16070828926792,
+          "eval_time_sec": 63.30613899230957
+        }
+      }
+    }
+  },
+  "spine_lb": {
+    "name": "Spine LB Image-Only SAC",
+    "ckpt_path": "/home/user/workspace/lakshya/ct_us/sac_image_only/spine_lb/sac_image_only_spine_lb_final.zip",
+    "wall_clock_sec": 13144.191824913025,
+    "ep_rew_mean": 17.41060113,
+    "eval": {
+      "fixed": {
+        "Train": {
+          "success_rate": 53.0,
+          "pos_err_mean": 14.474316266834897,
+          "pos_err_std": 28.169786637618316,
+          "rot_err_mean": 2.9219341140756345,
+          "rot_err_std": 4.499034746476875,
+          "steps_mean": 300.0,
+          "steps_std": 0.0,
+          "eval_time_sec": 5055.791524171829,
+          "first_success_rate": 95.0
+        },
+        "Held-Out": {
+          "success_rate": 0.0,
+          "pos_err_mean": 151.62331808137264,
+          "pos_err_std": 88.9313860579038,
+          "rot_err_mean": 32.39677540857112,
+          "rot_err_std": 23.482093549891957,
+          "steps_mean": 296.34,
+          "steps_std": 20.970083452385218,
+          "eval_time_sec": 5064.124693393707,
+          "first_success_rate": 16.0
+        }
+      },
+      "early_term": {
+        "Train": {
+          "success_rate": 95.0,
+          "pos_err_mean": 8.61534911640289,
+          "pos_err_std": 26.550704165519704,
+          "rot_err_mean": 1.3407491923842405,
+          "rot_err_std": 2.589988342806198,
+          "steps_mean": 28.96,
+          "steps_std": 63.15250113811805,
+          "eval_time_sec": 588.1288425922394
+        },
+        "Held-Out": {
+          "success_rate": 16.0,
+          "pos_err_mean": 134.72133041227144,
+          "pos_err_std": 98.61645283378283,
+          "rot_err_mean": 30.649852435101355,
+          "rot_err_std": 24.383259429076393,
+          "steps_mean": 261.63,
+          "steps_std": 87.31238800994969,
+          "eval_time_sec": 4482.289516448975
+        }
+      }
+    }
+  },
+  "aorta_mb": {
+    "name": "Aorta MB Image-Only SAC",
+    "ckpt_path": "/home/user/workspace/lakshya/ct_us/sac_image_only/aorta_mb/sac_image_only_aorta_mb_final.zip",
+    "wall_clock_sec": 7441.91273021698,
+    "ep_rew_mean": 72.06539069000002,
+    "eval": {
+      "fixed": {
+        "Train": {
+          "success_rate": 56.00000000000001,
+          "pos_err_mean": 4.742236993459579,
+          "pos_err_std": 2.4689171366665854,
+          "rot_err_mean": 5.533583860053439,
+          "rot_err_std": 5.295326788011022,
+          "steps_mean": 300.0,
+          "steps_std": 0.0,
+          "eval_time_sec": 98.63626456260681,
+          "first_success_rate": 100.0
+        },
+        "Held-Out": {
+          "success_rate": 2.0,
+          "pos_err_mean": 62.86318404687424,
+          "pos_err_std": 47.54474414076427,
+          "rot_err_mean": 12.576670285854437,
+          "rot_err_std": 9.47304183729126,
+          "steps_mean": 300.0,
+          "steps_std": 0.0,
+          "eval_time_sec": 113.38544130325317,
+          "first_success_rate": 46.0
+        }
+      },
+      "early_term": {
+        "Train": {
+          "success_rate": 100.0,
+          "pos_err_mean": 3.1410928876478232,
+          "pos_err_std": 1.2258551430270124,
+          "rot_err_mean": 2.8108270339203516,
+          "rot_err_std": 2.36492153849303,
+          "steps_mean": 10.86,
+          "steps_std": 3.741710838640527,
+          "eval_time_sec": 25.736323356628418
+        },
+        "Held-Out": {
+          "success_rate": 46.0,
+          "pos_err_mean": 36.31967281756567,
+          "pos_err_std": 45.46933104896575,
+          "rot_err_mean": 6.784701786724407,
+          "rot_err_std": 7.356467222595573,
+          "steps_mean": 189.5,
+          "steps_std": 125.24659676015153,
+          "eval_time_sec": 71.30962324142456
+        }
+      }
+    }
+  },
+  "liver_mb": {
+    "name": "Liver MB Image-Only SAC",
+    "ckpt_path": "/home/user/workspace/lakshya/ct_us/sac_image_only/liver_mb/sac_image_only_liver_mb_final.zip",
+    "wall_clock_sec": 8315.496196508408,
+    "ep_rew_mean": 71.17223282,
+    "eval": {
+      "fixed": {
+        "Train": {
+          "success_rate": 34.0,
+          "pos_err_mean": 24.408555806350247,
+          "pos_err_std": 40.12940807992113,
+          "rot_err_mean": 9.62717432064064,
+          "rot_err_std": 17.01884349030323,
+          "steps_mean": 298.95,
+          "steps_std": 5.020707121511869,
+          "eval_time_sec": 107.50083923339844,
+          "first_success_rate": 100.0
+        },
+        "Held-Out": {
+          "success_rate": 0.0,
+          "pos_err_mean": 140.57619264116383,
+          "pos_err_std": 96.57003148447681,
+          "rot_err_mean": 17.441725340903027,
+          "rot_err_std": 15.013104894809798,
+          "steps_mean": 299.47,
+          "steps_std": 4.050814732865477,
+          "eval_time_sec": 117.7619297504425,
+          "first_success_rate": 19.0
+        }
+      },
+      "early_term": {
+        "Train": {
+          "success_rate": 100.0,
+          "pos_err_mean": 2.8970433365463037,
+          "pos_err_std": 1.2589060722223528,
+          "rot_err_mean": 1.4253743506768266,
+          "rot_err_std": 1.651293837926916,
+          "steps_mean": 8.25,
+          "steps_std": 2.4914855006601986,
+          "eval_time_sec": 26.502514839172363
+        },
+        "Held-Out": {
+          "success_rate": 19.0,
+          "pos_err_mean": 113.58415951026731,
+          "pos_err_std": 103.3703806570227,
+          "rot_err_mean": 15.08494441751315,
+          "rot_err_std": 15.241026634075126,
+          "steps_mean": 252.09,
+          "steps_std": 101.24150285332591,
+          "eval_time_sec": 105.33944725990295
+        }
+      }
+    }
+  }
+}

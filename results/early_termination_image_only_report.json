@@ -1,0 +1,214 @@
+{
+  "spine_ppo_image_only": {
+    "checkpoint": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_spine_s0_final.zip",
+    "checkpoint_step_count": 1000448,
+    "reported_row_label": "Spine Image-Only PPO (300k, Seed 0)",
+    "note": "Evaluated checkpoint is ppo_scale_spine_s0_final.zip (1,000,448 steps)",
+    "early_termination": true,
+    "train": {
+      "pos_mean": 2.9203069200578553,
+      "pos_std": 1.1797201505128432,
+      "rot_mean": 0.4588993102580905,
+      "rot_std": 0.9958598324379279,
+      "steps_mean": 9.74,
+      "steps_std": 3.9638869812344546,
+      "success_rate": 100.0,
+      "n": 100
+    },
+    "held_out": {
+      "pos_mean": 143.56807618602141,
+      "pos_std": 156.38228718602946,
+      "rot_mean": 21.44501635634736,
+      "rot_std": 28.88733432848858,
+      "steps_mean": 142.17,
+      "steps_std": 104.83435076347828,
+      "success_rate": 43.0,
+      "n": 100
+    }
+  },
+  "aorta_ppo_image_only": {
+    "seeds": {
+      "seed_0": {
+        "checkpoint": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s0_final.zip",
+        "checkpoint_step_count": 300032,
+        "train": {
+          "pos_mean": 6.902216200940939,
+          "pos_std": 23.410178993974178,
+          "rot_mean": 3.717786797212763,
+          "rot_std": 6.286505092681231,
+          "steps_mean": 39.45,
+          "steps_std": 56.27368390286885,
+          "success_rate": 97.0,
+          "n": 100
+        },
+        "held_out": {
+          "pos_mean": 151.16712800272765,
+          "pos_std": 55.405597447974024,
+          "rot_mean": 30.480936867258627,
+          "rot_std": 25.618050168339142,
+          "steps_mean": 212.84,
+          "steps_std": 102.30373600216173,
+          "success_rate": 7.0,
+          "n": 100
+        }
+      },
+      "seed_1": {
+        "checkpoint": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s1_final.zip",
+        "checkpoint_step_count": 300032,
+        "train": {
+          "pos_mean": 3.0052758409153784,
+          "pos_std": 1.1316194352355466,
+          "rot_mean": 2.2897379324933014,
+          "rot_std": 1.8487703792075847,
+          "steps_mean": 21.92,
+          "steps_std": 29.196123030292906,
+          "success_rate": 100.0,
+          "n": 100
+        },
+        "held_out": {
+          "pos_mean": 174.6394531356608,
+          "pos_std": 57.39665197066047,
+          "rot_mean": 32.1754697453855,
+          "rot_std": 21.521559011333167,
+          "steps_mean": 215.74,
+          "steps_std": 99.02016158338665,
+          "success_rate": 1.0,
+          "n": 100
+        }
+      },
+      "seed_2": {
+        "checkpoint": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s2_final.zip",
+        "checkpoint_step_count": 300032,
+        "train": {
+          "pos_mean": 3.0476494771915967,
+          "pos_std": 1.4796405674544646,
+          "rot_mean": 3.5621279716935463,
+          "rot_std": 4.199755002727008,
+          "steps_mean": 52.44,
+          "steps_std": 87.85525823762627,
+          "success_rate": 93.0,
+          "n": 100
+        },
+        "held_out": {
+          "pos_mean": 130.7922871124243,
+          "pos_std": 78.22799849899552,
+          "rot_mean": 26.680514769550978,
+          "rot_std": 22.204774263557425,
+          "steps_mean": 242.37,
+          "steps_std": 93.61769651086273,
+          "success_rate": 10.0,
+          "n": 100
+        }
+      }
+    },
+    "early_termination": true,
+    "mean_over_seeds": {
+      "train": {
+        "pos_mean": 4.318380506349304,
+        "pos_std": 1.8271296348366002,
+        "rot_mean": 3.1898842337998707,
+        "rot_std": 0.6396639431802857,
+        "steps_mean": 37.93666666666667,
+        "steps_std": 12.505604965596648,
+        "success_rate_mean": 96.66666666666667,
+        "success_rate_std": 2.8674417556808756
+      },
+      "held_out": {
+        "pos_mean": 152.19962275027092,
+        "pos_std": 17.91541284518435,
+        "rot_mean": 29.778973794065035,
+        "rot_std": 2.2975634432600818,
+        "steps_mean": 223.65,
+        "steps_std": 13.289878354095896,
+        "success_rate_mean": 6.0,
+        "success_rate_std": 3.7416573867739413
+      }
+    }
+  },
+  "spine_bc_image_only": {
+    "checkpoint": "/home/user/workspace/lakshya/ct_us/il_new/checkpoints/spine/bc_spine_image_only.pt",
+    "early_termination": true,
+    "train": {
+      "pos_mean": 85.70323371231217,
+      "pos_std": 34.093636015072256,
+      "rot_mean": 11.74322599184073,
+      "rot_std": 7.652380267429936,
+      "steps_mean": 295.37,
+      "steps_std": 33.520338602108424,
+      "success_rate": 1.0
+    },
+    "held_out": {
+      "pos_mean": 113.96177361112144,
+      "pos_std": 104.83640990294676,
+      "rot_mean": 24.215444035878527,
+      "rot_std": 21.813901028871904,
+      "steps_mean": 291.1,
+      "steps_std": 42.66509111674321,
+      "success_rate": 1.0
+    }
+  },
+  "spine_act_image_only": {
+    "checkpoint": "/home/user/workspace/lakshya/ct_us/il_new/checkpoints/spine/act_spine_image_only.pt",
+    "early_termination": true,
+    "train": {
+      "pos_mean": 73.54043971219897,
+      "pos_std": 39.12132313284801,
+      "rot_mean": 10.567144325595338,
+      "rot_std": 7.744198186277666,
+      "steps_mean": 251.69,
+      "steps_std": 106.994831183567,
+      "success_rate": 16.0
+    },
+    "held_out": {
+      "pos_mean": 70.24571795735181,
+      "pos_std": 17.85034933246959,
+      "rot_mean": 21.082216832169756,
+      "rot_std": 15.240446756097787,
+      "steps_mean": 294.12,
+      "steps_std": 41.160000000000004,
+      "success_rate": 2.0
+    }
+  },
+  "spine_bo_template_image_only": {
+    "variant": "Template BO (Spine MB, image-only 128x128)",
+    "early_termination_applies": false,
+    "reason": "BO operates on black-box ultrasound similarity without ground-truth error feedback; runs full budget (max 300 steps)",
+    "train": {
+      "pos_mean": 66.59922483064142,
+      "pos_std": 29.93689671260345,
+      "rot_mean": 11.161164815490531,
+      "rot_std": 8.453860754562417,
+      "steps_mean": 284.97,
+      "success_rate": 0.0
+    },
+    "held_out": {
+      "pos_mean": 56.77891017801349,
+      "pos_std": 31.13258548996378,
+      "rot_mean": 22.481576164571262,
+      "rot_std": 17.842269644520197,
+      "steps_mean": 288.26,
+      "success_rate": 1.0
+    }
+  },
+  "spine_bo_quality": {
+    "variant": "Quality BO (Spine MB, 256x256 no-reference quality score)",
+    "early_termination_applies": false,
+    "reason": "BO operates on black-box ultrasound image quality score Q without ground-truth error feedback; runs full budget (max 300 steps)",
+    "train": {
+      "pos_mean": 74.39888873416345,
+      "pos_std": 30.926223883873654,
+      "rot_mean": 11.499455285308954,
+      "rot_std": 7.183940886957417,
+      "steps_mean": 273.32,
+      "success_rate": 0.0
+    },
+    "held_out": {
+      "pos_mean": 55.572687749110464,
+      "pos_std": 29.349719303242846,
+      "rot_mean": 21.422771756082458,
+      "rot_std": 19.648442211772657,
+      "steps_mean": 272.9,
+      "success_rate": 0.0
+    }
+  }
+}

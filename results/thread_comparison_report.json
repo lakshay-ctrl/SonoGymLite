@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-25T01:58:50",
+  "aorta_with_thread_limits": {
+    "steps": 1088,
+    "duration_sec": 60.12,
+    "steps_per_sec": 18.1
+  },
+  "aorta_without_thread_limits": {
+    "steps": 1808,
+    "duration_sec": 60.5,
+    "steps_per_sec": 29.88
+  },
+  "faster_setting": "without_thread_limits"
+}

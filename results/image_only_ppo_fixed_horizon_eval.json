@@ -1,0 +1,148 @@
+{
+  "Aorta Image-Only PPO Seed 0": {
+    "model_info": {
+      "target": "aorta",
+      "name": "Aorta Image-Only PPO Seed 0",
+      "seed_tag": 0,
+      "ckpt": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s0_final.zip",
+      "wrapper": "image_contact_orientation"
+    },
+    "cohorts": {
+      "Train": {
+        "success_rate": 25.0,
+        "pos_err_mean": 12.017946776588374,
+        "pos_err_std": 28.2466310742997,
+        "rot_err_mean": 6.810471948087172,
+        "rot_err_std": 7.424577656811986,
+        "steps_mean": 300.0,
+        "steps_std": 0.0,
+        "eval_time_sec": 62.575034856796265
+      },
+      "Held-Out": {
+        "success_rate": 0.0,
+        "pos_err_mean": 148.62404559224444,
+        "pos_err_std": 48.46551486616565,
+        "rot_err_mean": 38.544495924452214,
+        "rot_err_std": 29.66570962478886,
+        "steps_mean": 222.56,
+        "steps_std": 94.92453002253947,
+        "eval_time_sec": 83.04340028762817
+      }
+    }
+  },
+  "Aorta Image-Only PPO Seed 1": {
+    "model_info": {
+      "target": "aorta",
+      "name": "Aorta Image-Only PPO Seed 1",
+      "seed_tag": 1,
+      "ckpt": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s1_final.zip",
+      "wrapper": "image_contact_orientation"
+    },
+    "cohorts": {
+      "Train": {
+        "success_rate": 53.0,
+        "pos_err_mean": 8.166563991350058,
+        "pos_err_std": 21.896552338774825,
+        "rot_err_mean": 5.619743381316893,
+        "rot_err_std": 5.254814694837172,
+        "steps_mean": 297.91,
+        "steps_std": 20.795237435528357,
+        "eval_time_sec": 62.18889403343201
+      },
+      "Held-Out": {
+        "success_rate": 0.0,
+        "pos_err_mean": 176.85264097792785,
+        "pos_err_std": 59.34030552021355,
+        "rot_err_mean": 33.988264724470476,
+        "rot_err_std": 20.839457507948506,
+        "steps_mean": 232.85,
+        "steps_std": 96.4137308685853,
+        "eval_time_sec": 58.51169228553772
+      }
+    }
+  },
+  "Aorta Image-Only PPO Seed 2": {
+    "model_info": {
+      "target": "aorta",
+      "name": "Aorta Image-Only PPO Seed 2",
+      "seed_tag": 2,
+      "ckpt": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_scale/ppo_scale_aorta_s2_final.zip",
+      "wrapper": "image_contact_orientation"
+    },
+    "cohorts": {
+      "Train": {
+        "success_rate": 39.0,
+        "pos_err_mean": 17.15509367033436,
+        "pos_err_std": 35.7055516063612,
+        "rot_err_mean": 11.311635034146388,
+        "rot_err_std": 12.439706515802309,
+        "steps_mean": 298.75,
+        "steps_std": 12.43734296383275,
+        "eval_time_sec": 147.33138370513916
+      },
+      "Held-Out": {
+        "success_rate": 0.0,
+        "pos_err_mean": 155.8460928324349,
+        "pos_err_std": 61.92161538427666,
+        "rot_err_mean": 23.224322027368167,
+        "rot_err_std": 16.957401410507714,
+        "steps_mean": 267.45,
+        "steps_std": 66.29952865594144,
+        "eval_time_sec": 110.53469467163086
+      }
+    }
+  },
+  "Liver Image-Only PPO (300k)": {
+    "model_info": {
+      "target": "liver",
+      "name": "Liver Image-Only PPO (300k)",
+      "seed_tag": 0,
+      "ckpt": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/liver_centre/ppo_scale_liver_300000_steps.zip",
+      "wrapper": "raw_env"
+    },
+    "cohorts": {
+      "Train": {
+        "success_rate": 2.0,
+        "pos_err_mean": 22.024265345275595,
+        "pos_err_std": 16.1246831117446,
+        "rot_err_mean": 5.7237451441168545,
+        "rot_err_std": 5.733786467001866,
+        "steps_mean": 300.0,
+        "steps_std": 0.0,
+        "eval_time_sec": 103.34551644325256
+      },
+      "Held-Out": {
+        "success_rate": 0.0,
+        "pos_err_mean": 46.615483030193744,
+        "pos_err_std": 32.272712260564425,
+        "rot_err_mean": 19.473728348355863,
+        "rot_err_std": 19.04677998357227,
+        "steps_mean": 300.0,
+        "steps_std": 0.0,
+        "eval_time_sec": 72.09040570259094
+      }
+    }
+  },
+  "Aorta Image-Only PPO (Mean \u00b1 Std over 3 Seeds)": {
+    "Train": {
+      "succ_mean": 39.0,
+      "succ_std": 11.430952132988164,
+      "pos_mean": 12.446534812757598,
+      "pos_std": 3.6820449233232657,
+      "rot_mean": 7.913950121183485,
+      "rot_std": 2.451211361179407,
+      "steps_mean": 298.8866666666667,
+      "steps_std": 0.8586940989406759
+    },
+    "Held-Out": {
+      "succ_mean": 0.0,
+      "succ_std": 0.0,
+      "pos_mean": 160.44092646753575,
+      "pos_std": 11.973519991014815,
+      "rot_mean": 31.919027558763617,
+      "rot_std": 6.42330335031131,
+      "steps_mean": 240.9533333333333,
+      "steps_std": 19.20114637781354
+    }
+  }
+}

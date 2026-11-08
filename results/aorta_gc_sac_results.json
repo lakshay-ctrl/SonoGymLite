@@ -1,0 +1,80 @@
+{
+  "task_id": "aorta_gc_sac",
+  "algo": "sac",
+  "anatomy": "aorta",
+  "train_cohort": {
+    "first_succ_pct": 56.666666666666664,
+    "final_succ_pct": 16.666666666666668,
+    "pos_3d_error_mm": 8.809463952316378,
+    "frontal_error_mm": 4.360911660579544,
+    "elevation_error_mm": 7.329194209328944,
+    "rotation_error_deg": 9.202752675522829,
+    "quality": 0.41287430306275685
+  },
+  "held_out_cohort": {
+    "first_succ_pct": 100.0,
+    "final_succ_pct": 0.0,
+    "pos_3d_error_mm": 9.688122115573103,
+    "frontal_error_mm": 6.0584331309761215,
+    "elevation_error_mm": 7.360686667442321,
+    "rotation_error_deg": 6.9379073169077925,
+    "quality": 0.5430429330468178
+  },
+  "patients": {
+    "s0011": {
+      "split": "train",
+      "first_succ_pct": 100.0,
+      "final_succ_pct": 50.0,
+      "pos_3d_error_mm": 4.951244684898188,
+      "pos_3d_std_mm": 2.994477715397177,
+      "frontal_error_mm": 3.3890696760332566,
+      "elevation_error_mm": 3.047549894027637,
+      "rotation_error_deg": 6.055533140813154,
+      "quality": 0.45620487213134764
+    },
+    "s0058": {
+      "split": "train",
+      "first_succ_pct": 60.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 10.882102615220422,
+      "pos_3d_std_mm": 1.3422022612978914,
+      "frontal_error_mm": 5.554177820809131,
+      "elevation_error_mm": 9.27744127706551,
+      "rotation_error_deg": 8.383252269985416,
+      "quality": 0.45244848310947416
+    },
+    "s0250": {
+      "split": "train",
+      "first_succ_pct": 10.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 10.595044556830524,
+      "pos_3d_std_mm": 1.1112743122478708,
+      "frontal_error_mm": 4.139487484896245,
+      "elevation_error_mm": 9.662591456893688,
+      "rotation_error_deg": 13.169472615769916,
+      "quality": 0.3299695539474487
+    },
+    "s0344": {
+      "split": "held_out",
+      "first_succ_pct": 100.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 10.186571437718662,
+      "pos_3d_std_mm": 0.8663195152795437,
+      "frontal_error_mm": 7.545514920271917,
+      "elevation_error_mm": 6.771342586175024,
+      "rotation_error_deg": 6.0744455379237134,
+      "quality": 0.5258594369888306
+    },
+    "s0358": {
+      "split": "held_out",
+      "first_succ_pct": 100.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 9.189672793427544,
+      "pos_3d_std_mm": 0.8451430824133087,
+      "frontal_error_mm": 4.571351341680325,
+      "elevation_error_mm": 7.95003074870962,
+      "rotation_error_deg": 7.8013690958918716,
+      "quality": 0.5602264291048049
+    }
+  }
+}

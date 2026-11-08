@@ -1,0 +1,26 @@
+{
+  "BC": {
+    "Train": {
+      "pos_error_mean": 130.61407194163982,
+      "rot_error_mean": 24.708511605274424,
+      "success_rate": 0.0
+    },
+    "Held-Out": {
+      "pos_error_mean": 131.1701703390538,
+      "rot_error_mean": 24.194364384225572,
+      "success_rate": 0.0
+    }
+  },
+  "GP-UCB": {
+    "Train": {
+      "pos_error_mean": 171.16131615025483,
+      "rot_error_mean": 33.708084272202484,
+      "success_rate": 0.0
+    },
+    "Held-Out": {
+      "pos_error_mean": 120.74082426368992,
+      "rot_error_mean": 37.836583766654655,
+      "success_rate": 0.0
+    }
+  }
+}

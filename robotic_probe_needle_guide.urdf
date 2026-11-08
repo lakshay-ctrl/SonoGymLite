@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<robot name="robotic_probe_with_needle_guide">
+
+  <!-- ==================================================================== -->
+  <!-- MATERIALS DEFINITION                                                 -->
+  <!-- ==================================================================== -->
+  <material name="medical_white">
+    <color rgba="0.94 0.95 0.96 1.0"/>
+  </material>
+  <material name="acoustic_lens_graphite">
+    <color rgba="0.22 0.24 0.26 1.0"/>
+  </material>
+  <material name="silicone_grip_grey">
+    <color rgba="0.35 0.38 0.42 1.0"/>
+  </material>
+  <material name="surgical_anodized_blue">
+    <color rgba="0.12 0.42 0.78 1.0"/>
+  </material>
+  <material name="clamp_accent_red">
+    <color rgba="0.88 0.20 0.22 1.0"/>
+  </material>
+  <material name="stepper_black">
+    <color rgba="0.12 0.13 0.15 1.0"/>
+  </material>
+  <material name="polished_chrome_steel">
+    <color rgba="0.82 0.85 0.88 1.0"/>
+  </material>
+  <material name="leadscrew_steel">
+    <color rgba="0.70 0.73 0.76 1.0"/>
+  </material>
+  <material name="brass_bushing">
+    <color rgba="0.85 0.72 0.35 1.0"/>
+  </material>
+  <material name="needle_cannula_18g">
+    <color rgba="0.90 0.92 0.95 1.0"/>
+  </material>
+  <material name="depth_ring_black">
+    <color rgba="0.08 0.08 0.10 1.0"/>
+  </material>
+  <material name="luer_hub_pink_18g">
+    <color rgba="0.92 0.26 0.44 0.98"/>
+  </material>
+  <material name="syringe_barrel_glass">
+    <color rgba="0.86 0.93 0.98 0.70"/>
+  </material>
+  <material name="syringe_plunger_white">
+    <color rgba="0.95 0.96 0.97 1.0"/>
+  </material>
+  <material name="syringe_rubber_piston">
+    <color rgba="0.16 0.18 0.20 1.0"/>
+  </material>
+  <material name="flange_aluminum">
+    <color rgba="0.75 0.78 0.82 1.0"/>
+  </material>
+
+  <!-- ==================================================================== -->
+  <!-- 1. BASE LINK: Robot Interface Flange & Curved Ultrasound Transducer   -->
+  <!-- ==================================================================== -->
+  <link name="probe_base_flange">
+    <inertial>
+      <mass value="0.55"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0015" iyy="0.0015" izz="0.0008"/>
+    </inertial>
+
+    <!-- Robot EE Interface Flange (connects directly to Franka Panda Link 8) -->
+    <visual>
+      <origin xyz="0 0 0.195" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.024" length="0.020"/>
+      </geometry>
+      <material name="flange_aluminum"/>
+    </visual>
+    <!-- Flange index ring & alignment notch -->
+    <visual>
+      <origin xyz="0 0 0.206" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.016" length="0.008"/>
+      </geometry>
+      <material name="stepper_black"/>
+    </visual>
+    <!-- Transducer cable strain-relief boot -->
+    <visual>
+      <origin xyz="0 0 0.218" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.008" length="0.016"/>
+      </geometry>
+      <material name="stepper_black"/>
+    </visual>
+
+    <!-- Ergonomic Contoured Transducer Handle -->
+    <visual>
+      <origin xyz="0 0 0.118" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.018" length="0.134"/>
+      </geometry>
+      <material name="medical_white"/>
+    </visual>
+
+    <!-- Side Silicone Ergonomic Grip Pads (Lateral Left/Right) -->
+    <visual>
+      <origin xyz="0 0.0182 0.118" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.026 0.002 0.080"/>
+      </geometry>
+      <material name="silicone_grip_grey"/>
+    </visual>
+    <visual>
+      <origin xyz="0 -0.0182 0.118" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.026 0.002 0.080"/>
+      </geometry>
+      <material name="silicone_grip_grey"/>
+    </visual>
+
+    <!-- Transducer Lower Flare Housing -->
+    <visual>
+      <origin xyz="0 0 0.038" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.058 0.024 0.032"/>
+      </geometry>
+      <material name="medical_white"/>
+    </visual>
+    <!-- Transducer Lower Metal Bezel Accent -->
+    <visual>
+      <origin xyz="0 0 0.022" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.056 0.022 0.006"/>
+      </geometry>
+      <material name="flange_aluminum"/>
+    </visual>
+
+    <!-- Curved Acoustic Lens Array (Horizontal Cylinder along X-axis) -->
+    <visual>
+      <origin xyz="0 0 0.020" rpy="0 1.5707963 0"/>
+      <geometry>
+        <cylinder radius="0.015" length="0.054"/>
+      </geometry>
+      <material name="acoustic_lens_graphite"/>
+    </visual>
+    <!-- Planar Acoustic Contact Face Footprint at z=0.005 -->
+    <visual>
+      <origin xyz="0 0 0.006" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.052 0.014 0.004"/>
+      </geometry>
+      <material name="acoustic_lens_graphite"/>
+    </visual>
+
+    <!-- Environment Contact Collisions -->
+    <collision>
+      <origin xyz="0 0 0.11" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.020" length="0.16"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0.012" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.056 0.024 0.022"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ==================================================================== -->
+  <!-- 2. RIGID CHASSIS & STRUCTURAL BRACKET (AURA-CVC Mechatronic Clamp)   -->
+  <!-- ==================================================================== -->
+  <link name="needle_actuator_chassis">
+    <inertial>
+      <mass value="0.28"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0008" iyy="0.0008" izz="0.0004"/>
+    </inertial>
+
+    <!-- Heavy-duty CNC Aluminum Clamp Collar encircling the probe housing -->
+    <visual>
+      <origin xyz="0 0 0.046" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.064 0.030 0.020"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+    <!-- Clamp Hex Fastener Cap Screws -->
+    <visual>
+      <origin xyz="0.030 0.012 0.046" rpy="0 1.5707963 0"/>
+      <geometry>
+        <cylinder radius="0.0022" length="0.008"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+    <visual>
+      <origin xyz="0.030 -0.012 0.046" rpy="0 1.5707963 0"/>
+      <geometry>
+        <cylinder radius="0.0022" length="0.008"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+
+    <!-- Structural Cantilever Gusset Arm connecting Clamp to 45-deg Rail Spine -->
+    <visual>
+      <origin xyz="0.038 0 0.056" rpy="0 0.785398 0"/>
+      <geometry>
+        <box size="0.018 0.028 0.036"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+    <!-- Stiffening Strut -->
+    <visual>
+      <origin xyz="0.030 0 0.036" rpy="0 0.785398 0"/>
+      <geometry>
+        <box size="0.012 0.024 0.020"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+  </link>
+
+  <joint name="chassis_mount_joint" type="fixed">
+    <parent link="probe_base_flange"/>
+    <child link="needle_actuator_chassis"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================================================================== -->
+  <!-- 3. 45-DEGREE LINEAR ACTUATOR BED & TWIN GUIDE RAILS                   -->
+  <!-- ==================================================================== -->
+  <link name="linear_actuator_bed">
+    <inertial>
+      <mass value="0.22"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0006" iyy="0.0006" izz="0.0002"/>
+    </inertial>
+
+    <!-- Structural Backbone Rail Bed (Length 130mm, Width 30mm) -->
+    <!-- Local -Z is the forward insertion direction toward probe footprint -->
+    <visual>
+      <origin xyz="-0.008 0 0.0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.008 0.032 0.120"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+
+    <!-- Top Rail Mounting Block & Motor Support Bracket -->
+    <visual>
+      <origin xyz="0 0 0.060" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.022 0.032 0.016"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+
+    <!-- Precision Miniature NEMA Stepper Motor Housing -->
+    <visual>
+      <origin xyz="0 0 0.082" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.024 0.024 0.028"/>
+      </geometry>
+      <material name="stepper_black"/>
+    </visual>
+    <!-- Stepper Motor Rear Encoder Cap -->
+    <visual>
+      <origin xyz="0 0 0.098" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.008" length="0.006"/>
+      </geometry>
+      <material name="flange_aluminum"/>
+    </visual>
+
+    <!-- Dual Ground-Steel Precision Linear Guide Shafts (Left & Right) -->
+    <visual>
+      <origin xyz="0 0.011 0.0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0022" length="0.120"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+    <visual>
+      <origin xyz="0 -0.011 0.0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0022" length="0.120"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+
+    <!-- Centered High-Precision Lead Screw (M4 Threaded Drive Shaft) -->
+    <visual>
+      <origin xyz="0 0 0.0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0020" length="0.116"/>
+      </geometry>
+      <material name="leadscrew_steel"/>
+    </visual>
+
+    <!-- Bottom Guide Bushing Block (terminates at z=-0.055, safely above skin) -->
+    <visual>
+      <origin xyz="0 0 -0.055" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.018 0.030 0.014"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+    <!-- Precision Low-Friction Brass Bushing Sleeve Guide for 18G Needle -->
+    <visual>
+      <origin xyz="0 0 -0.062" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0032" length="0.014"/>
+      </geometry>
+      <material name="brass_bushing"/>
+    </visual>
+
+    <!-- Laser-Etched Insertion Depth Scale on Side Plate -->
+    <visual>
+      <origin xyz="-0.0125 0.0162 0.0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.100"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+  </link>
+
+  <!-- Fixed Joint placing the Linear Actuator Bed at exactly 45 deg, pointing to footprint -->
+  <!-- Located at x=0.048, z=0.052, rpy=[0, 0.785398, 0] -->
+  <joint name="rail_bed_joint" type="fixed">
+    <parent link="needle_actuator_chassis"/>
+    <child link="linear_actuator_bed"/>
+    <origin xyz="0.048 0 0.052" rpy="0 0.785398 0"/>
+  </joint>
+
+  <!-- ==================================================================== -->
+  <!-- 4. ACTIVE MOTORIZED NEEDLE CARRIAGE & SYRINGE CADDY                  -->
+  <!-- ==================================================================== -->
+  <link name="needle_carriage_slider">
+    <inertial>
+      <mass value="0.08"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0002" iyy="0.0002" izz="0.0001"/>
+    </inertial>
+
+    <!-- Main Carriage Body (glides along dual rails via linear bushings) -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.016 0.034 0.022"/>
+      </geometry>
+      <material name="flange_aluminum"/>
+    </visual>
+
+    <!-- Left & Right Recirculating Ball Bushing Blocks -->
+    <visual>
+      <origin xyz="0 0.011 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0038" length="0.022"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+    <visual>
+      <origin xyz="0 -0.011 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0038" length="0.022"/>
+      </geometry>
+      <material name="surgical_anodized_blue"/>
+    </visual>
+
+    <!-- Centered Lead Screw Brass Anti-Backlash Drive Nut -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0035" length="0.012"/>
+      </geometry>
+      <material name="brass_bushing"/>
+    </visual>
+
+    <!-- Form-Fitted Syringe Barrel Saddle Cradle -->
+    <visual>
+      <origin xyz="0.014 0 0.028" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.012 0.022 0.044"/>
+      </geometry>
+      <material name="flange_aluminum"/>
+    </visual>
+    <!-- Quick-Release Syringe Locking Band (Anodized Red Clamp Latch) -->
+    <visual>
+      <origin xyz="0.021 0 0.026" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.004 0.025 0.014"/>
+      </geometry>
+      <material name="clamp_accent_red"/>
+    </visual>
+
+    <!-- 10 mL Medical Aspiration Syringe Barrel (Mounted securely in cradle) -->
+    <visual>
+      <origin xyz="0.016 0 0.032" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0080" length="0.068"/>
+      </geometry>
+      <material name="syringe_barrel_glass"/>
+    </visual>
+    <!-- Syringe Barrel Flange Finger-Grip -->
+    <visual>
+      <origin xyz="0.016 0 0.066" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.022 0.030 0.003"/>
+      </geometry>
+      <material name="syringe_barrel_glass"/>
+    </visual>
+
+    <!-- Syringe Plunger Shaft -->
+    <visual>
+      <origin xyz="0.016 0 0.086" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0045" length="0.038"/>
+      </geometry>
+      <material name="syringe_plunger_white"/>
+    </visual>
+    <!-- Syringe Plunger Thumb Press Flange -->
+    <visual>
+      <origin xyz="0.016 0 0.105" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.011" length="0.003"/>
+      </geometry>
+      <material name="syringe_plunger_white"/>
+    </visual>
+    <!-- Syringe Internal Black Rubber Piston -->
+    <visual>
+      <origin xyz="0.016 0 0.050" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0076" length="0.008"/>
+      </geometry>
+      <material name="syringe_rubber_piston"/>
+    </visual>
+
+    <!-- Clinical Luer-Lock Needle Hub (18G Pink ISO Standard) clamped at carriage nose -->
+    <visual>
+      <origin xyz="0 0 -0.016" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0035" length="0.012"/>
+      </geometry>
+      <material name="luer_hub_pink_18g"/>
+    </visual>
+    <!-- Luer Lock Collar -->
+    <visual>
+      <origin xyz="0 0 -0.011" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.010 0.010 0.004"/>
+      </geometry>
+      <material name="luer_hub_pink_18g"/>
+    </visual>
+
+    <!-- 18G Surgical Stainless Steel Cannula -->
+    <!-- Extends along -Z from Luer hub (-0.016) through lower guide bushing to tip (-0.115) -->
+    <visual>
+      <origin xyz="0 0 -0.065" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0011" length="0.100"/>
+      </geometry>
+      <material name="needle_cannula_18g"/>
+    </visual>
+
+    <!-- Precision Lancet Beveled Needle Tip at distal end (z = -0.115) -->
+    <visual>
+      <origin xyz="0.0003 0 -0.115" rpy="0 0.35 0"/>
+      <geometry>
+        <cylinder radius="0.0010" length="0.004"/>
+      </geometry>
+      <material name="polished_chrome_steel"/>
+    </visual>
+
+    <!-- Echogenic Laser-Etched Depth Graduation Bands -->
+    <visual>
+      <origin xyz="0 0 -0.105" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.095" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.085" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.075" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.065" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 -0.055" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.00115" length="0.0012"/>
+      </geometry>
+      <material name="depth_ring_black"/>
+    </visual>
+
+    <!-- Cannula Collision for Tissue & Bone Boundary Interaction -->
+    <collision>
+      <origin xyz="0 0 -0.065" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.0012" length="0.100"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ==================================================================== -->
+  <!-- 5. 1-DoF PRISMATIC NEEDLE INSERTION JOINT                             -->
+  <!-- ==================================================================== -->
+  <joint name="needle_insertion_prismatic_joint" type="prismatic">
+    <parent link="linear_actuator_bed"/>
+    <child link="needle_carriage_slider"/>
+    <!-- Parked origin at z=+0.045: needle tip rests right inside lower guide bushing -->
+    <origin xyz="0 0 0.045" rpy="0 0 0"/>
+    <!-- Insertion pushes carriage along -Z axis directly toward ultrasound scanning plane -->
+    <axis xyz="0 0 -1"/>
+    <!-- Insertion Stroke: 0.0 to 0.100 m (10.0 cm clinical insertion depth) -->
+    <limit lower="0.0" upper="0.100" effort="30.0" velocity="0.05"/>
+    <dynamics damping="1.0" friction="0.2"/>
+  </joint>
+
+</robot>

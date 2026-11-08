@@ -1,0 +1,83 @@
+{
+  "task_id": "aorta_gc_a2c",
+  "stage": "A",
+  "anatomy": "aorta",
+  "algo": "a2c",
+  "git_commit": "e752e0a9d984910c96eed6c6d3a5d5bd877ecbfe",
+  "targets_sha256": {
+    "aorta": "5bbebdd5aa4462f666d397af39849b09850e137467525b0ecf33d8652e3cbe32",
+    "liver": "08470d4b93def970b2fd20bf28c6356d4d09e8fc706b86ea80a78cc6db8ffdd6",
+    "spine": "6fa85ee6bfd977cd4d0e56ccfd7270157c41b5cacf2e8e4547064f8c16cf6435"
+  },
+  "timestamp": "2026-10-27T23:32:11",
+  "train_cohort": {
+    "first_succ_pct": 0.0,
+    "final_succ_pct": 0.0,
+    "pos_3d_error_mm": 110.09787380532792,
+    "frontal_error_mm": 84.23314624221963,
+    "elevation_error_mm": 56.24624490836294,
+    "rotation_error_deg": 17.617977975991668,
+    "quality": 0.38547999219761947
+  },
+  "held_out_cohort": {
+    "first_succ_pct": 0.0,
+    "final_succ_pct": 0.0,
+    "pos_3d_error_mm": 108.02659217694894,
+    "frontal_error_mm": 82.02092817359107,
+    "elevation_error_mm": 55.666980755671986,
+    "rotation_error_deg": 19.315652947792223,
+    "quality": 0.39213659887512525
+  },
+  "patients": {
+    "s0011": {
+      "split": "train",
+      "first_succ_pct": 0.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 111.27879954964669,
+      "frontal_error_mm": 83.5437839501319,
+      "elevation_error_mm": 57.91831976325092,
+      "rotation_error_deg": 11.77942932977629,
+      "quality": 0.40858893970648447
+    },
+    "s0058": {
+      "split": "train",
+      "first_succ_pct": 0.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 105.51016948694824,
+      "frontal_error_mm": 80.33485942288851,
+      "elevation_error_mm": 53.94485251322303,
+      "rotation_error_deg": 23.098533197873856,
+      "quality": 0.35093763023614877
+    },
+    "s0250": {
+      "split": "train",
+      "first_succ_pct": 0.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 113.50465237938879,
+      "frontal_error_mm": 88.8207953536385,
+      "elevation_error_mm": 56.87556244861487,
+      "rotation_error_deg": 17.975971400324852,
+      "quality": 0.39691340665022523
+    },
+    "s0344": {
+      "split": "held_out",
+      "first_succ_pct": 0.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 111.66660532604759,
+      "frontal_error_mm": 85.74411381925732,
+      "elevation_error_mm": 55.58247189538706,
+      "rotation_error_deg": 18.637493938793337,
+      "quality": 0.39577370524406436
+    },
+    "s0358": {
+      "split": "held_out",
+      "first_succ_pct": 0.0,
+      "final_succ_pct": 0.0,
+      "pos_3d_error_mm": 104.38657902785029,
+      "frontal_error_mm": 78.29774252792483,
+      "elevation_error_mm": 55.751489615956906,
+      "rotation_error_deg": 19.99381195679111,
+      "quality": 0.38849949250618615
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "report_meta": {
+    "title": "SonoSimLite Comprehensive Navigation & Image-Only Evaluation Report",
+    "date": "2026-10-25T01:20:00+05:30",
+    "description": "Per-patient and cohort breakdown for 150-episode evaluations across image-only and goal-conditioned navigation.",
+    "definitions": {
+      "3d_pos_error_mm": "Euclidean distance ||p_tip - p_goal||_2 in world/patient coordinates.",
+      "skin_plane_frontal_error_mm": "SonoGym-style 2D projection on the probe/skin plane: sqrt(delta_x^2 + delta_y^2) in probe-local axes.",
+      "elevation_error_mm": "Out-of-plane orthogonal acoustic beam thickness displacement: |delta_elevation|.",
+      "rotation_error_deg": "Geodesic angular deviation between probe orientation and canonical perpendicular acoustic target quaternion."
+    }
+  },
+  "image_only_300k_navigation": {
+    "description": "Evaluated on step_0300000_final.zip (observation: 128x128 US image + 1D binary contact indicator). 30 episodes per patient (150 total).",
+    "pass1_early_termination": {
+      "train_cohort_summary": {
+        "patients": [
+          "s0011",
+          "s0058",
+          "s0250"
+        ],
+        "episodes": 90,
+        "first_success_rate_pct": 96.67,
+        "final_step_success_rate_pct": 6.67,
+        "mean_ep_length_steps": 15.13,
+        "pos_3d_error_mean_mm": 107.25,
+        "skin_plane_frontal_error_mean_mm": 56.49,
+        "elevation_error_mean_mm": 91.16,
+        "elevation_error_note": "Corrected from erroneous 82.9 mm arithmetic typo; exact mean across s0011 (82.10), s0058 (110.35), s0250 (81.02) is 91.16 mm.",
+        "rotation_error_mean_deg": 16.59,
+        "mean_quality_q": 0.415
+      },
+      "held_out_cohort_summary": {
+        "patients": [
+          "s0344",
+          "s0358"
+        ],
+        "episodes": 60,
+        "first_success_rate_pct": 20.0,
+        "final_step_success_rate_pct": 0.0,
+        "mean_ep_length_steps": 102.0,
+        "pos_3d_error_mean_mm": 186.95,
+        "skin_plane_frontal_error_mean_mm": 153.13,
+        "elevation_error_mean_mm": 83.72,
+        "rotation_error_mean_deg": 34.04,
+        "mean_quality_q": 0.193
+      },
+      "per_patient_breakdown": {
+        "s0011": {
+          "split": "train",
+          "n_episodes": 30,
+          "first_succ_count": 30,
+          "first_succ_pct": 100.0,
+          "final_succ_count": 3,
+          "final_succ_pct": 10.0,
+          "pos_3d_mean_mm": 95.21,
+          "frontal_skin_plane_mm": 48.12,
+          "elevation_mm": 82.1,
+          "rot_deg": 14.2,
+          "mean_ep_len": 12.4,
+          "mean_q": 0.435
+        },
+        "s0058": {
+          "split": "train",
+          "n_episodes": 30,
+          "first_succ_count": 27,
+          "first_succ_pct": 90.0,
+          "final_succ_count": 0,
+          "final_succ_pct": 0.0,
+          "pos_3d_mean_mm": 131.42,
+          "frontal_skin_plane_mm": 71.2,
+          "elevation_mm": 110.35,
+          "rot_deg": 21.8,
+          "mean_ep_len": 21.8,
+          "mean_q": 0.395
+        },
+        "s0250": {
+          "split": "train",
+          "n_episodes": 30,
+          "first_succ_count": 30,
+          "first_succ_pct": 100.0,
+          "final_succ_count": 3,
+          "final_succ_pct": 10.0,
+          "pos_3d_mean_mm": 95.12,
+          "frontal_skin_plane_mm": 50.15,
+          "elevation_mm": 81.02,
+          "rot_deg": 13.8,
+          "mean_ep_len": 11.2,
+          "mean_q": 0.415
+        },
+        "s0344": {
+          "split": "held_out",
+          "n_episodes": 30,
+          "first_succ_count": 9,
+          "first_succ_pct": 30.0,
+          "final_succ_count": 0,
+          "final_succ_pct": 0.0,
+          "pos_3d_mean_mm": 172.5,
+          "frontal_skin_plane_mm": 141.2,
+          "elevation_mm": 98.8,
+          "rot_deg": 28.6,
+          "mean_ep_len": 88.5,
+          "mean_q": 0.224
+        },
+        "s0358": {
+          "split": "held_out",
+          "n_episodes": 30,
+          "first_succ_count": 3,
+          "first_succ_pct": 10.0,
+          "final_succ_count": 0,
+          "final_succ_pct": 0.0,
+          "pos_3d_mean_mm": 201.4,
+          "frontal_skin_plane_mm": 165.06,
+          "elevation_mm": 68.64,
+          "rot_deg": 39.5,
+          "mean_ep_len": 115.5,
+          "mean_q": 0.162
+        }
+      }
+    },
+    "pass2_full_150_horizon": {
+      "description": "Early termination disabled. Agent forced to navigate for full 150 steps.",
+      "train_cohort_summary": {
+        "patients": [
+          "s0011",
+          "s0058",
+          "s0250"
+        ],
+        "episodes": 90,
+        "first_success_rate_pct": 96.67,
+        "final_step_success_rate_pct": 6.67,
+        "mean_ep_length_steps": 150.0,
+        "pos_3d_error_mean_mm": 108.4,
+        "skin_plane_frontal_error_mean_mm": 57.1,
+        "elevation_error_mean_mm": 91.8,
+        "rotation_error_mean_deg": 16.9,
+        "mean_quality_q": 0.412
+      },
+      "held_out_cohort_summary": {
+        "patients": [
+          "s0344",
+          "s0358"
+        ],
+        "episodes": 60,
+        "first_success_rate_pct": 20.0,
+        "final_step_success_rate_pct": 0.0,
+        "mean_ep_length_steps": 150.0,
+        "pos_3d_error_mean_mm": 188.2,
+        "skin_plane_frontal_error_mean_mm": 154.5,
+        "elevation_error_mean_mm": 84.1,
+        "rotation_error_mean_deg": 34.6,
+        "mean_quality_q": 0.188
+      }
+    }
+  },
+  "goal_conditioned_spine_mb_fixed_horizon": {
+    "description": "Spine Marker-Based (MB) Navigation evaluated under fixed-horizon (early_termination=False, 150 steps, 30 eps/patient).",
+    "ppo_mb_spine": {
+      "train_cohort": {
+        "n_episodes": 90,
+        "final_step_success_pct": 100.0,
+        "pos_3d_error_mean_mm": 3.28,
+        "pos_3d_error_std_mm": 0.94,
+        "skin_plane_frontal_error_mean_mm": 2.24,
+        "elevation_error_mean_mm": 2.4,
+        "rotation_error_mean_deg": 0.81,
+        "quality_mean": 0.628,
+        "mean_ep_length": 150.0
+      },
+      "held_out_cohort": {
+        "n_episodes": 60,
+        "final_step_success_pct": 98.33,
+        "pos_3d_error_mean_mm": 3.59,
+        "pos_3d_error_std_mm": 0.82,
+        "skin_plane_frontal_error_mean_mm": 2.48,
+        "elevation_error_mean_mm": 2.59,
+        "rotation_error_mean_deg": 4.38,
+        "quality_mean": 0.762,
+        "mean_ep_length": 150.0
+      }
+    },
+    "sac_mb_spine": {
+      "train_cohort": {
+        "n_episodes": 90,
+        "final_step_success_pct": 100.0,
+        "pos_3d_error_mean_mm": 2.25,
+        "pos_3d_error_std_mm": 1.28,
+        "skin_plane_frontal_error_mean_mm": 1.54,
+        "elevation_error_mean_mm": 1.64,
+        "rotation_error_mean_deg": 0.42,
+        "quality_mean": 0.578,
+        "mean_ep_length": 150.0
+      },
+      "held_out_cohort": {
+        "n_episodes": 60,
+        "final_step_success_pct": 100.0,
+        "pos_3d_error_mean_mm": 2.12,
+        "pos_3d_error_std_mm": 1.11,
+        "skin_plane_frontal_error_mean_mm": 1.48,
+        "elevation_error_mean_mm": 1.51,
+        "rotation_error_mean_deg": 2.89,
+        "quality_mean": 0.641,
+        "mean_ep_length": 150.0
+      }
+    }
+  },
+  "table_iii_episode_termination_breakdown": {
+    "finding": "Disparity in termination criteria between MB and LB rows in Table III.",
+    "mb_rows": {
+      "early_termination_status": "ENABLED",
+      "mechanism": "Episodes terminated as soon as probe reached ||pos_err|| < 5.0 mm, rot_err < 10.0 deg, and Q >= 0.50 (spine).",
+      "average_episode_length_steps": "3.1 to 8.5 steps",
+      "implication": "Reported 100% success corresponds to first-passage arrival; the agent did not need to maintain stability for 50 or 150 steps."
+    },
+    "lb_rows": {
+      "early_termination_status": "DISABLED / NEVER TRIGGERED",
+      "mechanism": "LB policies operate without target vector; while spatial distance occasionally dropped below 5.0 mm during scanning sweeps, image quality Q hovered at ~0.31 (< 0.40/0.50 threshold), preventing early termination.",
+      "average_episode_length_steps": "50.0 steps (fixed horizon)",
+      "implication": "LB agents were evaluated strictly at the terminal step of the full horizon."
+    }
+  }
+}

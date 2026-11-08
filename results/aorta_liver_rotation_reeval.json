@@ -1,0 +1,102 @@
+{
+  "aorta": {
+    "ppo_memory": {
+      "Train": {
+        "upper_coverage_mean": 12.422527238741326,
+        "upper_coverage_std": 7.0069199720722875,
+        "path_length_mean": 0.407599305609862,
+        "path_length_std": 0.27395827547514573,
+        "total_rotation_mean": 137.61424287319053,
+        "total_rotation_std": 104.07656108325811,
+        "ref_upper_coverage": 11.9,
+        "ref_path_length": 0.4,
+        "reproduced": false
+      },
+      "Held-Out": {
+        "upper_coverage_mean": 23.469246422249178,
+        "upper_coverage_std": 3.097961578517026,
+        "path_length_mean": 0.12292661927640439,
+        "path_length_std": 0.02798238254320523,
+        "total_rotation_mean": 57.35550923778101,
+        "total_rotation_std": 14.635729594668296,
+        "ref_upper_coverage": 23.7,
+        "ref_path_length": 0.12,
+        "reproduced": false
+      }
+    },
+    "ppo_nomem": {
+      "Train": {
+        "upper_coverage_mean": 14.978607358008137,
+        "upper_coverage_std": 9.121957550571906,
+        "path_length_mean": 0.4192870656649272,
+        "path_length_std": 0.05419908266807806,
+        "total_rotation_mean": 88.88237037930601,
+        "total_rotation_std": 50.83923612228655,
+        "ref_upper_coverage": 14.8,
+        "ref_path_length": 0.42,
+        "reproduced": false
+      },
+      "Held-Out": {
+        "upper_coverage_mean": 33.56615255635744,
+        "upper_coverage_std": 4.3456716148881265,
+        "path_length_mean": 0.3231739789247513,
+        "path_length_std": 0.08210475819005242,
+        "total_rotation_mean": 68.22730116331505,
+        "total_rotation_std": 39.5506175567176,
+        "ref_upper_coverage": 33.5,
+        "ref_path_length": 0.33,
+        "reproduced": true
+      }
+    }
+  },
+  "liver": {
+    "ppo_memory": {
+      "Train": {
+        "upper_coverage_mean": 42.28276949140898,
+        "upper_coverage_std": 5.58630561874654,
+        "path_length_mean": 1.0074733903010686,
+        "path_length_std": 0.5379639759739292,
+        "total_rotation_mean": 242.80378932664922,
+        "total_rotation_std": 127.79404310355552,
+        "ref_upper_coverage": 42.1,
+        "ref_path_length": 1.29,
+        "reproduced": false
+      },
+      "Held-Out": {
+        "upper_coverage_mean": 54.48116433357935,
+        "upper_coverage_std": 5.711336391590198,
+        "path_length_mean": 1.4661259323358535,
+        "path_length_std": 1.1250196545156534,
+        "total_rotation_mean": 180.96188569506484,
+        "total_rotation_std": 32.229652020908986,
+        "ref_upper_coverage": 54.2,
+        "ref_path_length": 1.59,
+        "reproduced": false
+      }
+    },
+    "ppo_nomem": {
+      "Train": {
+        "upper_coverage_mean": 48.714762507907615,
+        "upper_coverage_std": 7.437290447176076,
+        "path_length_mean": 1.1109351595242818,
+        "path_length_std": 0.3448012625282332,
+        "total_rotation_mean": 1519.2043390653694,
+        "total_rotation_std": 1064.5436419656094,
+        "ref_upper_coverage": 47.7,
+        "ref_path_length": 1.38,
+        "reproduced": false
+      },
+      "Held-Out": {
+        "upper_coverage_mean": 67.3778673622144,
+        "upper_coverage_std": 16.63979387948606,
+        "path_length_mean": 0.8065570719540119,
+        "path_length_std": 0.6106961454836423,
+        "total_rotation_mean": 1060.9637466926486,
+        "total_rotation_std": 726.7792346997969,
+        "ref_upper_coverage": 66.0,
+        "ref_path_length": 0.79,
+        "reproduced": false
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "task_id": "spine_recon_ppo_mem",
+  "git_commit": "e752e0a9d984910c96eed6c6d3a5d5bd877ecbfe",
+  "targets_sha256": {
+    "aorta": "5bbebdd5aa4462f666d397af39849b09850e137467525b0ecf33d8652e3cbe32",
+    "liver": "08470d4b93def970b2fd20bf28c6356d4d09e8fc706b86ea80a78cc6db8ffdd6",
+    "spine": "6fa85ee6bfd977cd4d0e56ccfd7270157c41b5cacf2e8e4547064f8c16cf6435"
+  },
+  "status": "COMPLETED"
+}

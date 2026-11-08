@@ -1,0 +1,498 @@
+{
+  "timestamp": "2026-11-08T07:31:10Z",
+  "n1_analytic": {
+    "passed": true,
+    "max_abs_diff_mean_mm": 0.026747910702539457,
+    "max_abs_diff_std_mm": 0.06475084246908835,
+    "by_angle": {
+      "30": {
+        "angle_deg": 30,
+        "paper_mean_stroke_mm": 297.5,
+        "paper_std_stroke_mm": 55.0,
+        "recomputed_mean_stroke_mm": 297.52000000000004,
+        "recomputed_std_stroke_mm": 54.93524915753091,
+        "diff_mean_mm": 0.020000000000038654,
+        "diff_std_mm": 0.06475084246908835,
+        "pass": true
+      },
+      "45": {
+        "angle_deg": 45,
+        "paper_mean_stroke_mm": 210.4,
+        "paper_std_stroke_mm": 38.9,
+        "recomputed_mean_stroke_mm": 210.37840953862164,
+        "recomputed_std_stroke_mm": 38.84508720546268,
+        "diff_mean_mm": 0.0215904613783664,
+        "diff_std_mm": 0.05491279453731579,
+        "pass": true
+      },
+      "60": {
+        "angle_deg": 60,
+        "paper_mean_stroke_mm": 171.8,
+        "paper_std_stroke_mm": 31.7,
+        "recomputed_mean_stroke_mm": 171.77325208929747,
+        "recomputed_std_stroke_mm": 31.716880889099627,
+        "diff_mean_mm": 0.026747910702539457,
+        "diff_std_mm": 0.01688088909962815,
+        "pass": true
+      }
+    }
+  },
+  "n2_bone_stability": {
+    "hit_counts_05": {
+      "30": 1,
+      "45": 2,
+      "60": 1
+    },
+    "hit_counts_025": {
+      "30": 2,
+      "45": 2,
+      "60": 1
+    },
+    "discrepancies": [
+      {
+        "patient": "s0058",
+        "organ": "Portal Vein",
+        "angle_deg": 30,
+        "hit_05": false,
+        "hit_025": true
+      }
+    ],
+    "bone_file": "bone_label.nii.gz",
+    "bone_label_rule": "label > 0"
+  },
+  "n3_target_depths": {
+    "site_evaluations": [
+      {
+        "patient": "s0011",
+        "target": "Portal Vein",
+        "depth_mm": 153.7400923316594,
+        "paper_depth_mm": 153.7,
+        "diff_depth_mm": 0.04009233165942305,
+        "strokes_mm": {
+          "30": 307.4801846633189,
+          "45": 217.42132365592462,
+          "60": 177.52376738584297
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0011",
+        "target": "Aorta Bifurcation",
+        "depth_mm": 143.56430009844246,
+        "paper_depth_mm": 143.5,
+        "diff_depth_mm": 0.06430009844245888,
+        "strokes_mm": {
+          "30": 287.128600196885,
+          "45": 203.0305802718184,
+          "60": 165.77377461571194
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0058",
+        "target": "Portal Vein",
+        "depth_mm": 189.18019974799194,
+        "paper_depth_mm": 189.2,
+        "diff_depth_mm": -0.019800252008053576,
+        "strokes_mm": {
+          "30": 378.3603994959839,
+          "45": 267.5412042160614,
+          "60": 218.44647849970065
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "patient": "s0058",
+        "target": "Aorta Bifurcation",
+        "depth_mm": 174.9501952923105,
+        "paper_depth_mm": 175.0,
+        "diff_depth_mm": -0.0498047076895034,
+        "strokes_mm": {
+          "30": 349.90039058462105,
+          "45": 247.41693892220712,
+          "60": 202.01508469358615
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "patient": "s0250",
+        "target": "Portal Vein",
+        "depth_mm": 177.32534810501565,
+        "paper_depth_mm": 177.3,
+        "diff_depth_mm": 0.02534810501563811,
+        "strokes_mm": {
+          "30": 354.65069621003136,
+          "45": 250.77591224264336,
+          "60": 204.7576749251498
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      {
+        "patient": "s0250",
+        "target": "Aorta Bifurcation",
+        "depth_mm": 150.40589006160377,
+        "paper_depth_mm": 150.4,
+        "diff_depth_mm": 0.005890061603764707,
+        "strokes_mm": {
+          "30": 300.8117801232076,
+          "45": 212.7060495859168,
+          "60": 173.6737622295444
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0344",
+        "target": "Portal Vein",
+        "depth_mm": 151.58547892433515,
+        "paper_depth_mm": 151.6,
+        "diff_depth_mm": -0.014521075664845284,
+        "strokes_mm": {
+          "30": 303.17095784867035,
+          "45": 214.37424015361574,
+          "60": 175.0358341244065
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            false
+          ],
+          "60": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0344",
+        "target": "Aorta Bifurcation",
+        "depth_mm": 108.69564929649955,
+        "paper_depth_mm": 108.8,
+        "diff_depth_mm": -0.10435070350044384,
+        "strokes_mm": {
+          "30": 217.39129859299914,
+          "45": 153.71886140605926,
+          "60": 125.51092476215035
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            true
+          ],
+          "60": [
+            false,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0358",
+        "target": "Portal Vein",
+        "depth_mm": 141.24722460863148,
+        "paper_depth_mm": 141.2,
+        "diff_depth_mm": 0.04722460863149536,
+        "strokes_mm": {
+          "30": 282.494449217263,
+          "45": 199.75374068908545,
+          "60": 163.09824630016186
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            false
+          ],
+          "45": [
+            false,
+            false,
+            true
+          ],
+          "60": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "patient": "s0358",
+        "target": "Aorta Bifurcation",
+        "depth_mm": 96.86776545052045,
+        "paper_depth_mm": 96.9,
+        "diff_depth_mm": -0.032234549479554175,
+        "strokes_mm": {
+          "30": 193.73553090104093,
+          "45": 136.99170765690195,
+          "60": 111.85326091731103
+        },
+        "reach": {
+          "30": [
+            false,
+            false,
+            true
+          ],
+          "45": [
+            false,
+            true,
+            true
+          ],
+          "60": [
+            false,
+            true,
+            true
+          ]
+        }
+      }
+    ],
+    "strokes_by_angle": {
+      "30": [
+        307.4801846633189,
+        287.128600196885,
+        378.3603994959839,
+        349.90039058462105,
+        354.65069621003136,
+        300.8117801232076,
+        303.17095784867035,
+        217.39129859299914,
+        282.494449217263,
+        193.73553090104093
+      ],
+      "45": [
+        217.42132365592462,
+        203.0305802718184,
+        267.5412042160614,
+        247.41693892220712,
+        250.77591224264336,
+        212.7060495859168,
+        214.37424015361574,
+        153.71886140605926,
+        199.75374068908545,
+        136.99170765690195
+      ],
+      "60": [
+        177.52376738584297,
+        165.77377461571194,
+        218.44647849970065,
+        202.01508469358615,
+        204.7576749251498,
+        173.6737622295444,
+        175.0358341244065,
+        125.51092476215035,
+        163.09824630016186,
+        111.85326091731103
+      ]
+    },
+    "reach_by_angle": {
+      "30": [
+        0,
+        0,
+        1
+      ],
+      "45": [
+        0,
+        1,
+        3
+      ],
+      "60": [
+        0,
+        2,
+        7
+      ]
+    },
+    "summary_by_angle": {
+      "30": {
+        "mean_stroke_mm": 297.51242878340213,
+        "std_stroke_mm": 54.9639327065574,
+        "reach_100": 0,
+        "reach_150": 0,
+        "reach_200": 1
+      },
+      "45": {
+        "mean_stroke_mm": 210.3730558800234,
+        "std_stroke_mm": 38.8653695374878,
+        "reach_100": 0,
+        "reach_150": 1,
+        "reach_200": 3
+      },
+      "60": {
+        "mean_stroke_mm": 171.76888084535656,
+        "std_stroke_mm": 31.73344134385139,
+        "reach_100": 0,
+        "reach_150": 2,
+        "reach_200": 7
+      }
+    },
+    "n_sites": 10
+  },
+  "n4_visibility_cnr": {
+    "30": {
+      "v_specular": 0.8660254037844387,
+      "v_db": -1.2493873660829988,
+      "mean_cnr": 9.399923906443144,
+      "std_cnr": 0.03145658201939432,
+      "per_seed_cnr": [
+        9.35995207055855,
+        9.386420706631355,
+        9.391593600845578,
+        9.40645287615044,
+        9.455200278029789
+      ],
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "45": {
+      "v_specular": 0.7071067811865476,
+      "v_db": -3.0102999566398116,
+      "mean_cnr": 7.728283806483411,
+      "std_cnr": 0.015227436517458953,
+      "per_seed_cnr": [
+        7.706022082504999,
+        7.749328416515255,
+        7.740730047831733,
+        7.7238855021668185,
+        7.72145298339825
+      ],
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "60": {
+      "v_specular": 0.5000000000000001,
+      "v_db": -6.0205999132796215,
+      "mean_cnr": 6.083574066304155,
+      "std_cnr": 0.03245039449698849,
+      "per_seed_cnr": [
+        6.04469384413645,
+        6.12137390712151,
+        6.052761778019197,
+        6.078703670160457,
+        6.120337132083161
+      ],
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  }
+}

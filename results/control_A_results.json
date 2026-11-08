@@ -1,0 +1,249 @@
+{
+  "final_path": "/home/user/workspace/lakshya/ct_us/ppo_checkpoints/image_only_controls/variant_A/ppo_control_A_s0_final.zip",
+  "checkpoints": {
+    "50000": {
+      "by_patient": {
+        "s0011": {
+          "split": "train",
+          "first_succ_pct": 3.3333333333333335,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 146.43333333333334,
+          "pos_3d_mm": 69.90547227619535,
+          "frontal_mm": 67.44186854237235,
+          "elevation_mm": 15.915988472617235,
+          "rot_deg": 14.561577125769425,
+          "quality": 0.3685455484191577
+        },
+        "s0058": {
+          "split": "train",
+          "first_succ_pct": 0.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 150.0,
+          "pos_3d_mm": 51.25106212066744,
+          "frontal_mm": 30.383165457689852,
+          "elevation_mm": 32.74830851549121,
+          "rot_deg": 13.39588889556652,
+          "quality": 0.4802567384640376
+        },
+        "s0250": {
+          "split": "train",
+          "first_succ_pct": 36.666666666666664,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 110.0,
+          "pos_3d_mm": 80.11107752824776,
+          "frontal_mm": 62.5308946240227,
+          "elevation_mm": 41.65623688509659,
+          "rot_deg": 16.746761154822387,
+          "quality": 0.4168632548054059
+        },
+        "s0344": {
+          "split": "test",
+          "first_succ_pct": 13.333333333333334,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 140.03333333333333,
+          "pos_3d_mm": 84.93505104183018,
+          "frontal_mm": 72.37253337691783,
+          "elevation_mm": 34.306015269754404,
+          "rot_deg": 15.04560739775255,
+          "quality": 0.36816782077153515
+        },
+        "s0358": {
+          "split": "test",
+          "first_succ_pct": 6.666666666666667,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 143.4,
+          "pos_3d_mm": 47.363395406002134,
+          "frontal_mm": 39.10285341353032,
+          "elevation_mm": 19.73339951186915,
+          "rot_deg": 18.915291977324745,
+          "quality": 0.5821062517166137
+        }
+      },
+      "summary": {
+        "train": {
+          "first_succ_pct": 13.333333333333334,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 135.4777777777778,
+          "pos_3d_mm": 67.08920397503685,
+          "frontal_mm": 53.4519762080283,
+          "elevation_mm": 30.106844624401678,
+          "rot_deg": 14.901409058719445,
+          "quality": 0.42188851389620036
+        },
+        "test": {
+          "first_succ_pct": 10.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 141.71666666666667,
+          "pos_3d_mm": 66.14922322391615,
+          "frontal_mm": 55.73769339522407,
+          "elevation_mm": 27.019707390811774,
+          "rot_deg": 16.98044968753865,
+          "quality": 0.47513703624407444
+        }
+      }
+    },
+    "100000": {
+      "by_patient": {
+        "s0011": {
+          "split": "train",
+          "first_succ_pct": 93.33333333333333,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 20.5,
+          "pos_3d_mm": 239.10237434624725,
+          "frontal_mm": 61.689319244599496,
+          "elevation_mm": 195.29598370396204,
+          "rot_deg": 17.435139176142012,
+          "quality": 0.0
+        },
+        "s0058": {
+          "split": "train",
+          "first_succ_pct": 70.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 94.53333333333333,
+          "pos_3d_mm": 36.10034436933974,
+          "frontal_mm": 31.85628823031074,
+          "elevation_mm": 16.317944328734196,
+          "rot_deg": 13.456377104808265,
+          "quality": 0.5398424897591274
+        },
+        "s0250": {
+          "split": "train",
+          "first_succ_pct": 100.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 8.8,
+          "pos_3d_mm": 241.60628457148897,
+          "frontal_mm": 119.31225545688628,
+          "elevation_mm": 200.51644600091242,
+          "rot_deg": 13.739401833733572,
+          "quality": 0.0
+        },
+        "s0344": {
+          "split": "test",
+          "first_succ_pct": 63.33333333333333,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 73.56666666666666,
+          "pos_3d_mm": 230.67291100201632,
+          "frontal_mm": 110.30506124729781,
+          "elevation_mm": 142.42806555599262,
+          "rot_deg": 35.06773738845543,
+          "quality": 0.0
+        },
+        "s0358": {
+          "split": "test",
+          "first_succ_pct": 0.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 150.0,
+          "pos_3d_mm": 327.85917456158455,
+          "frontal_mm": 153.67991219154194,
+          "elevation_mm": 277.3743008749323,
+          "rot_deg": 38.98254409398626,
+          "quality": 0.41308827698230743
+        }
+      },
+      "summary": {
+        "train": {
+          "first_succ_pct": 87.77777777777777,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 41.27777777777778,
+          "pos_3d_mm": 172.26966776235864,
+          "frontal_mm": 70.95262097726551,
+          "elevation_mm": 137.3767913445362,
+          "rot_deg": 14.876972704894618,
+          "quality": 0.1799474965863758
+        },
+        "test": {
+          "first_succ_pct": 31.666666666666664,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 111.78333333333333,
+          "pos_3d_mm": 279.2660427818004,
+          "frontal_mm": 131.99248671941987,
+          "elevation_mm": 209.90118321546248,
+          "rot_deg": 37.025140741220845,
+          "quality": 0.20654413849115372
+        }
+      }
+    },
+    "150000": {
+      "by_patient": {
+        "s0011": {
+          "split": "train",
+          "first_succ_pct": 100.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 10.6,
+          "pos_3d_mm": 244.43715047736936,
+          "frontal_mm": 197.42349160917414,
+          "elevation_mm": 137.75879193493262,
+          "rot_deg": 21.70372524950434,
+          "quality": 0.01470124403635661
+        },
+        "s0058": {
+          "split": "train",
+          "first_succ_pct": 66.66666666666666,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 72.36666666666666,
+          "pos_3d_mm": 120.25868080741076,
+          "frontal_mm": 105.14037204333094,
+          "elevation_mm": 43.00340824849973,
+          "rot_deg": 13.051411522699631,
+          "quality": 0.3354028299450874
+        },
+        "s0250": {
+          "split": "train",
+          "first_succ_pct": 93.33333333333333,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 19.333333333333332,
+          "pos_3d_mm": 242.4015788949728,
+          "frontal_mm": 217.776000286258,
+          "elevation_mm": 100.13684872557928,
+          "rot_deg": 9.28809968435437,
+          "quality": 0.0
+        },
+        "s0344": {
+          "split": "test",
+          "first_succ_pct": 3.3333333333333335,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 145.2,
+          "pos_3d_mm": 229.71722388076654,
+          "frontal_mm": 168.12934083328503,
+          "elevation_mm": 124.77403610162743,
+          "rot_deg": 32.07970901720941,
+          "quality": 0.0
+        },
+        "s0358": {
+          "split": "test",
+          "first_succ_pct": 0.0,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 150.0,
+          "pos_3d_mm": 305.7402454681197,
+          "frontal_mm": 212.60980078699907,
+          "elevation_mm": 164.7485148315327,
+          "rot_deg": 43.185501918152724,
+          "quality": 0.2483108854293823
+        }
+      },
+      "summary": {
+        "train": {
+          "first_succ_pct": 86.66666666666667,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 34.099999999999994,
+          "pos_3d_mm": 202.36580339325099,
+          "frontal_mm": 173.44662131292102,
+          "elevation_mm": 93.63301630300388,
+          "rot_deg": 14.68107881885278,
+          "quality": 0.11670135799381466
+        },
+        "test": {
+          "first_succ_pct": 1.6666666666666667,
+          "final_succ_pct": 0.0,
+          "mean_first_step": 147.6,
+          "pos_3d_mm": 267.7287346744431,
+          "frontal_mm": 190.36957081014205,
+          "elevation_mm": 144.76127546658006,
+          "rot_deg": 37.63260546768107,
+          "quality": 0.12415544271469114
+        }
+      }
+    }
+  },
+  "elapsed_min": 388.8432497660319
+}

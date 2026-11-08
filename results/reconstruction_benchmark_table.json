@@ -1,0 +1,308 @@
+{
+  "spine": {
+    "Train": {
+      "ppo_memory": {
+        "upper_coverage_mean": 58.47284619607383,
+        "upper_coverage_std": 5.166098822039478,
+        "whole_coverage_mean": 14.701358575112511,
+        "whole_coverage_std": 1.446312754149602,
+        "path_length_mean": 0.21411755581696829,
+        "path_length_std": 0.01195733658985004,
+        "total_rotation_mean": 325.5024309621334,
+        "total_rotation_std": 8.495805631088862,
+        "footprint_reach_mean": 69.74525909423828,
+        "footprint_reach_std": 6.216141096231452
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 51.21949891526017,
+        "upper_coverage_std": 4.183262090887829,
+        "whole_coverage_mean": 12.375002901591708,
+        "whole_coverage_std": 1.2490492930662265,
+        "path_length_mean": 0.36794438858826956,
+        "path_length_std": 0.02783742082072835,
+        "total_rotation_mean": 424.50395516443405,
+        "total_rotation_std": 19.99377019479218,
+        "footprint_reach_mean": 97.70681762695312,
+        "footprint_reach_std": 3.4406609600126012
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 38.47774302215156,
+        "upper_coverage_std": 4.991608593864773,
+        "whole_coverage_mean": 10.823370954170988,
+        "whole_coverage_std": 1.4003924789765987,
+        "path_length_mean": 1.5057427883148193,
+        "path_length_std": 0.005401697035956617,
+        "total_rotation_mean": 30.967252251149624,
+        "total_rotation_std": 18.515876916579707,
+        "footprint_reach_mean": 39.435184478759766,
+        "footprint_reach_std": 2.7979119866468345
+      },
+      "raster_short": {
+        "upper_coverage_mean": 23.825559429277853,
+        "upper_coverage_std": 5.064737744487473,
+        "whole_coverage_mean": 8.014449860270615,
+        "whole_coverage_std": 1.6419265797961018,
+        "path_length_mean": 1.5286621610323587,
+        "path_length_std": 0.013469574769295731,
+        "total_rotation_mean": 66.94455727524608,
+        "total_rotation_std": 48.77798645100437,
+        "footprint_reach_mean": 15.480530039469402,
+        "footprint_reach_std": 0.5571753700431759
+      }
+    },
+    "Held-Out": {
+      "ppo_memory": {
+        "upper_coverage_mean": 60.034838146862796,
+        "upper_coverage_std": 5.63271663928908,
+        "whole_coverage_mean": 16.70950260053767,
+        "whole_coverage_std": 2.5046115110318987,
+        "path_length_mean": 0.212269227206707,
+        "path_length_std": 0.013318342760548834,
+        "total_rotation_mean": 360.73063820680824,
+        "total_rotation_std": 37.713799349530554,
+        "footprint_reach_mean": 71.88184776306153,
+        "footprint_reach_std": 3.479545647004171
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 48.04323264358191,
+        "upper_coverage_std": 4.837880618812804,
+        "whole_coverage_mean": 13.073497390762014,
+        "whole_coverage_std": 1.4953052256387236,
+        "path_length_mean": 0.3589233711361885,
+        "path_length_std": 0.026904136796704666,
+        "total_rotation_mean": 477.84983903007395,
+        "total_rotation_std": 41.70114773752761,
+        "footprint_reach_mean": 100.0,
+        "footprint_reach_std": 0.0
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 37.41143877482681,
+        "upper_coverage_std": 3.919087705031948,
+        "whole_coverage_mean": 13.575378052957939,
+        "whole_coverage_std": 1.1416227645003718,
+        "path_length_mean": 1.5478127241134643,
+        "path_length_std": 0.042976566663362116,
+        "total_rotation_mean": 138.68804933175892,
+        "total_rotation_std": 135.0732710478848,
+        "footprint_reach_mean": 36.18224229812622,
+        "footprint_reach_std": 2.510678335462555
+      },
+      "raster_short": {
+        "upper_coverage_mean": 23.034219305938393,
+        "upper_coverage_std": 3.648196357735335,
+        "whole_coverage_mean": 10.09583639282574,
+        "whole_coverage_std": 1.5745582678817363,
+        "path_length_mean": 1.5729210674762726,
+        "path_length_std": 0.05023746371171287,
+        "total_rotation_mean": 180.73803915078352,
+        "total_rotation_std": 176.2741982139088,
+        "footprint_reach_mean": 16.23267149925232,
+        "footprint_reach_std": 0.2464357552164543
+      }
+    }
+  },
+  "aorta": {
+    "Train": {
+      "ppo_memory": {
+        "upper_coverage_mean": 11.859384453032813,
+        "upper_coverage_std": 6.834834966192763,
+        "whole_coverage_mean": 9.608294786213055,
+        "whole_coverage_std": 5.232791629456702,
+        "path_length_mean": 0.4001094828049342,
+        "path_length_std": 0.2763518818575344,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 42.0391487121582,
+        "footprint_reach_std": 19.82167103407617
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 14.828822505083725,
+        "upper_coverage_std": 8.908999142659363,
+        "whole_coverage_mean": 12.376541404453265,
+        "whole_coverage_std": 7.417343691585823,
+        "path_length_mean": 0.41907202700773877,
+        "path_length_std": 0.05531871655548304,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 65.22994925181071,
+        "footprint_reach_std": 23.40038741104615
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 10.379777140517898,
+        "upper_coverage_std": 7.847112417472822,
+        "whole_coverage_mean": 8.638502540951466,
+        "whole_coverage_std": 6.697581355972786,
+        "path_length_mean": 1.5550574660301208,
+        "path_length_std": 0.016891638419232486,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 31.144740676879884,
+        "footprint_reach_std": 1.5240751505741232
+      },
+      "raster_short": {
+        "upper_coverage_mean": 2.434019668546701,
+        "upper_coverage_std": 3.3835500958761737,
+        "whole_coverage_mean": 1.0868945873174034,
+        "whole_coverage_std": 1.5399970895293245,
+        "path_length_mean": 1.5738497018814086,
+        "path_length_std": 0.03011336392466697,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 10.970007514953613,
+        "footprint_reach_std": 0.17521496723785263
+      }
+    },
+    "Held-Out": {
+      "ppo_memory": {
+        "upper_coverage_mean": 23.678493641211382,
+        "upper_coverage_std": 3.349110702854622,
+        "whole_coverage_mean": 23.019138710637307,
+        "whole_coverage_std": 3.631543127096771,
+        "path_length_mean": 0.12250654101371765,
+        "path_length_std": 0.027425651970287637,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 15.186581254005432,
+        "footprint_reach_std": 7.512164443657695
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 33.524935844592214,
+        "upper_coverage_std": 4.346620590765913,
+        "whole_coverage_mean": 33.21121619285269,
+        "whole_coverage_std": 4.166330918499078,
+        "path_length_mean": 0.3307447150349617,
+        "path_length_std": 0.08128014643026987,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 58.0900520324707,
+        "footprint_reach_std": 13.499880989846261
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 39.30490971677034,
+        "upper_coverage_std": 2.4225331902013476,
+        "whole_coverage_mean": 38.22546528101043,
+        "whole_coverage_std": 2.844556146546132,
+        "path_length_mean": 1.5564342439174652,
+        "path_length_std": 0.04716430116545471,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 34.91084938049316,
+        "footprint_reach_std": 1.7669882934314776
+      },
+      "raster_short": {
+        "upper_coverage_mean": 30.687236839137455,
+        "upper_coverage_std": 3.5282472187042186,
+        "whole_coverage_mean": 30.025398715702465,
+        "whole_coverage_std": 4.6591977471035175,
+        "path_length_mean": 1.5847939193248748,
+        "path_length_std": 0.06612753424362577,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 12.329745674133301,
+        "footprint_reach_std": 0.3181643325362656
+      }
+    }
+  },
+  "liver": {
+    "Train": {
+      "ppo_memory": {
+        "upper_coverage_mean": 42.14429920220205,
+        "upper_coverage_std": 5.744206497665515,
+        "whole_coverage_mean": 18.761920300723652,
+        "whole_coverage_std": 2.867449366928245,
+        "path_length_mean": 1.28920645515124,
+        "path_length_std": 0.8521835296043129,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 84.962819925944,
+        "footprint_reach_std": 13.959656918108273
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 47.71182829096451,
+        "upper_coverage_std": 7.864670085086184,
+        "whole_coverage_mean": 22.952066967059405,
+        "whole_coverage_std": 5.4306390607026325,
+        "path_length_mean": 1.3767393718163172,
+        "path_length_std": 0.6518795452999929,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 55.42496223449707,
+        "footprint_reach_std": 15.754736468008652
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 41.04213374951386,
+        "upper_coverage_std": 5.2035721475508225,
+        "whole_coverage_mean": 15.301382255911044,
+        "whole_coverage_std": 2.1401896494858086,
+        "path_length_mean": 1.6072161316871643,
+        "path_length_std": 0.08118310117371462,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 50.996907552083336,
+        "footprint_reach_std": 5.3121121435249545
+      },
+      "raster_short": {
+        "upper_coverage_mean": 26.567914809095473,
+        "upper_coverage_std": 4.21211695126207,
+        "whole_coverage_mean": 9.673496548030972,
+        "whole_coverage_std": 1.8118422390730102,
+        "path_length_mean": 1.5662747263908385,
+        "path_length_std": 0.029751273669272448,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 24.214408111572265,
+        "footprint_reach_std": 1.474515171986768
+      }
+    },
+    "Held-Out": {
+      "ppo_memory": {
+        "upper_coverage_mean": 54.230815165380235,
+        "upper_coverage_std": 6.485283457363543,
+        "whole_coverage_mean": 31.691653172946303,
+        "whole_coverage_std": 3.7969117303842257,
+        "path_length_mean": 1.5861050933599472,
+        "path_length_std": 1.2483313611117761,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 83.7834047317505,
+        "footprint_reach_std": 15.749638757507254
+      },
+      "ppo_nomem": {
+        "upper_coverage_mean": 65.99988311107498,
+        "upper_coverage_std": 15.09685953545362,
+        "whole_coverage_mean": 35.44950925203085,
+        "whole_coverage_std": 10.045115167507436,
+        "path_length_mean": 0.7881819576025009,
+        "path_length_std": 0.5281543155908323,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 54.2491436958313,
+        "footprint_reach_std": 23.239863607574577
+      },
+      "raster_footprint": {
+        "upper_coverage_mean": 65.28361234211523,
+        "upper_coverage_std": 15.736863734991474,
+        "whole_coverage_mean": 32.64768968120517,
+        "whole_coverage_std": 10.166294852594493,
+        "path_length_mean": 1.6230595529079437,
+        "path_length_std": 0.031240349581741177,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 57.58919773101807,
+        "footprint_reach_std": 8.42559733098597
+      },
+      "raster_short": {
+        "upper_coverage_mean": 41.095149865414854,
+        "upper_coverage_std": 7.174472035615522,
+        "whole_coverage_mean": 19.46827378822135,
+        "whole_coverage_std": 4.946982194431238,
+        "path_length_mean": 1.582237607240677,
+        "path_length_std": 0.024556531521678436,
+        "total_rotation_mean": 0.0,
+        "total_rotation_std": 0.0,
+        "footprint_reach_mean": 26.27134952545166,
+        "footprint_reach_std": 0.22722977461913813
+      }
+    }
+  }
+}

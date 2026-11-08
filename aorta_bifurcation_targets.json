@@ -1,0 +1,77 @@
+{
+  "s0011": {
+    "voxel_bifurcation_zyx": [
+      153.1,
+      147.46,
+      150.0
+    ],
+    "nifti_mm_bifurcation": [
+      -6.9,
+      175.65,
+      164.0
+    ],
+    "aorta_voxel_count": 56939,
+    "is_train": true,
+    "is_test": false
+  },
+  "s0058": {
+    "voxel_bifurcation_zyx": [
+      143.59,
+      151.38,
+      152.0
+    ],
+    "nifti_mm_bifurcation": [
+      0.32,
+      192.01,
+      843.2
+    ],
+    "aorta_voxel_count": 30938,
+    "is_train": true,
+    "is_test": false
+  },
+  "s0250": {
+    "voxel_bifurcation_zyx": [
+      155.0,
+      128.0,
+      144.0
+    ],
+    "nifti_mm_bifurcation": [
+      -6.05,
+      173.45,
+      277.2
+    ],
+    "aorta_voxel_count": 48872,
+    "is_train": true,
+    "is_test": false
+  },
+  "s0344": {
+    "voxel_bifurcation_zyx": [
+      142.43,
+      162.28,
+      148.0
+    ],
+    "nifti_mm_bifurcation": [
+      -7.44,
+      163.34,
+      -383.0
+    ],
+    "aorta_voxel_count": 75945,
+    "is_train": false,
+    "is_test": true
+  },
+  "s0358": {
+    "voxel_bifurcation_zyx": [
+      114.92,
+      130.72,
+      260.0
+    ],
+    "nifti_mm_bifurcation": [
+      -10.75,
+      184.45,
+      -272.5
+    ],
+    "aorta_voxel_count": 73423,
+    "is_train": false,
+    "is_test": true
+  }
+}

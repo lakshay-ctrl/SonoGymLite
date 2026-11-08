@@ -1,0 +1,132 @@
+{
+  "status": "PASSED",
+  "timestamp": "2026-10-25T16:29:27",
+  "check_1_q_goal": {
+    "aorta": {
+      "s0011": {
+        "quality_q": 0.6304,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0058": {
+        "quality_q": 0.4929,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0250": {
+        "quality_q": 0.421,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0344": {
+        "quality_q": 0.6927,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0358": {
+        "quality_q": 0.7056,
+        "threshold": 0.4,
+        "passed": true
+      }
+    },
+    "liver": {
+      "s0011": {
+        "quality_q": 0.7272,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0058": {
+        "quality_q": 0.5954,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0250": {
+        "quality_q": 0.6135,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0344": {
+        "quality_q": 0.6673,
+        "threshold": 0.4,
+        "passed": true
+      },
+      "s0358": {
+        "quality_q": 0.7595,
+        "threshold": 0.4,
+        "passed": true
+      }
+    }
+  },
+  "check_2_aorta_depths": {
+    "s0011": {
+      "measured_depth_mm": 143.55,
+      "expected_depth_mm": 143.5,
+      "absolute_diff_mm": 0.05,
+      "passed": true
+    },
+    "s0058": {
+      "measured_depth_mm": 174.95,
+      "expected_depth_mm": 175.0,
+      "absolute_diff_mm": 0.048,
+      "passed": true
+    },
+    "s0250": {
+      "measured_depth_mm": 150.37,
+      "expected_depth_mm": 150.4,
+      "absolute_diff_mm": 0.025,
+      "passed": true
+    },
+    "s0344": {
+      "measured_depth_mm": 108.78,
+      "expected_depth_mm": 108.8,
+      "absolute_diff_mm": 0.024,
+      "passed": true
+    },
+    "s0358": {
+      "measured_depth_mm": 96.87,
+      "expected_depth_mm": 96.9,
+      "absolute_diff_mm": 0.032,
+      "passed": true
+    }
+  },
+  "check_3_smoke_test": {
+    "spine_navigation": {
+      "steps": 200,
+      "elapsed_sec": 4.3,
+      "steps_per_sec": 46.46,
+      "passed": true
+    },
+    "aorta_navigation": {
+      "steps": 200,
+      "elapsed_sec": 3.61,
+      "steps_per_sec": 55.36,
+      "passed": true
+    },
+    "liver_navigation": {
+      "steps": 200,
+      "elapsed_sec": 3.96,
+      "steps_per_sec": 50.52,
+      "passed": true
+    },
+    "spine_reconstruction": {
+      "steps": 200,
+      "elapsed_sec": 3.9,
+      "steps_per_sec": 51.26,
+      "passed": true
+    },
+    "aorta_reconstruction": {
+      "steps": 100,
+      "elapsed_sec": 2.47,
+      "steps_per_sec": 40.55,
+      "passed": true
+    },
+    "liver_reconstruction": {
+      "steps": 100,
+      "elapsed_sec": 3.48,
+      "steps_per_sec": 28.7,
+      "passed": true
+    }
+  },
+  "all_checks_passed": true,
+  "total_smoke_steps": 1000
+}

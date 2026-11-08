@@ -1,0 +1,306 @@
+{
+  "Train": [
+    {
+      "pos_err_mm": 8.86609306875546,
+      "rot_err_deg": 1.7766240110041314,
+      "quality_Q": 0.6495900630950928,
+      "success": false
+    },
+    {
+      "pos_err_mm": 20.51788261103093,
+      "rot_err_deg": 6.557264171614214,
+      "quality_Q": 0.4781383156776428,
+      "success": false
+    },
+    {
+      "pos_err_mm": 18.021945034570255,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.4636757731437683,
+      "success": false
+    },
+    {
+      "pos_err_mm": 10.29972219630378,
+      "rot_err_deg": 4.062724440083285,
+      "quality_Q": 0.6250318527221679,
+      "success": false
+    },
+    {
+      "pos_err_mm": 30.58536212010313,
+      "rot_err_deg": 2.9826798454315098,
+      "quality_Q": 0.5079569160938263,
+      "success": false
+    },
+    {
+      "pos_err_mm": 9.601129110928856,
+      "rot_err_deg": 0.7188914381141469,
+      "quality_Q": 0.43119751214981084,
+      "success": false
+    },
+    {
+      "pos_err_mm": 70.85633108498035,
+      "rot_err_deg": 17.95260025655816,
+      "quality_Q": 0.6549810647964478,
+      "success": false
+    },
+    {
+      "pos_err_mm": 16.818722370394333,
+      "rot_err_deg": 5.769156209949744,
+      "quality_Q": 0.4299792945384979,
+      "success": false
+    },
+    {
+      "pos_err_mm": 36.99048876600806,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.4952274978160858,
+      "success": false
+    },
+    {
+      "pos_err_mm": 8.682535539718723,
+      "rot_err_deg": 4.311305929190895,
+      "quality_Q": 0.7215463876724244,
+      "success": false
+    },
+    {
+      "pos_err_mm": 37.56177468224376,
+      "rot_err_deg": 7.7176359184974626,
+      "quality_Q": 0.5396297454833985,
+      "success": false
+    },
+    {
+      "pos_err_mm": 23.29548879601568,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.495138144493103,
+      "success": false
+    },
+    {
+      "pos_err_mm": 5.482655710497757,
+      "rot_err_deg": 0.6260351881397027,
+      "quality_Q": 0.6762919425964355,
+      "success": false
+    },
+    {
+      "pos_err_mm": 36.44855860800854,
+      "rot_err_deg": 7.341833433726211,
+      "quality_Q": 0.44997838139533997,
+      "success": false
+    },
+    {
+      "pos_err_mm": 11.60366403858195,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.48565036654472354,
+      "success": false
+    },
+    {
+      "pos_err_mm": 4.588527883834763,
+      "rot_err_deg": 0.6972249346834039,
+      "quality_Q": 0.6578089714050293,
+      "success": true
+    },
+    {
+      "pos_err_mm": 18.811958810252882,
+      "rot_err_deg": 4.506203767793468,
+      "quality_Q": 0.47618892788887024,
+      "success": false
+    },
+    {
+      "pos_err_mm": 11.269420942176197,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.4658883810043335,
+      "success": false
+    },
+    {
+      "pos_err_mm": 11.660928932973722,
+      "rot_err_deg": 3.8351410474189374,
+      "quality_Q": 0.6090131998062134,
+      "success": false
+    },
+    {
+      "pos_err_mm": 17.08256398750805,
+      "rot_err_deg": 6.025075893507595,
+      "quality_Q": 0.4903427720069885,
+      "success": false
+    },
+    {
+      "pos_err_mm": 25.489812204241787,
+      "rot_err_deg": 0.7447282494023153,
+      "quality_Q": 0.5265483379364013,
+      "success": false
+    },
+    {
+      "pos_err_mm": 5.557983124503748,
+      "rot_err_deg": 0.6928388786427008,
+      "quality_Q": 0.6554255127906798,
+      "success": false
+    },
+    {
+      "pos_err_mm": 32.777033211971826,
+      "rot_err_deg": 1.7058722316328614,
+      "quality_Q": 0.38346261382102964,
+      "success": false
+    },
+    {
+      "pos_err_mm": 10.442300653797664,
+      "rot_err_deg": 0.6325693210317808,
+      "quality_Q": 0.45717355608940125,
+      "success": false
+    },
+    {
+      "pos_err_mm": 9.354802021051292,
+      "rot_err_deg": 3.208449974537073,
+      "quality_Q": 0.5058058500289917,
+      "success": false
+    }
+  ],
+  "Held-Out": [
+    {
+      "pos_err_mm": 26.459419104162507,
+      "rot_err_deg": 0.3255834695732849,
+      "quality_Q": 0.6409507274627686,
+      "success": false
+    },
+    {
+      "pos_err_mm": 158.2924404327207,
+      "rot_err_deg": 58.03263509960046,
+      "quality_Q": 0.3253052055835724,
+      "success": false
+    },
+    {
+      "pos_err_mm": 33.556994165758454,
+      "rot_err_deg": 0.6763682621473059,
+      "quality_Q": 0.733608889579773,
+      "success": false
+    },
+    {
+      "pos_err_mm": 104.91265725054538,
+      "rot_err_deg": 50.58202638383939,
+      "quality_Q": 0.5780621886253356,
+      "success": false
+    },
+    {
+      "pos_err_mm": 153.46355933790448,
+      "rot_err_deg": 71.43970035320125,
+      "quality_Q": 0.7507437467575073,
+      "success": false
+    },
+    {
+      "pos_err_mm": 205.98269423308165,
+      "rot_err_deg": 34.682035141727475,
+      "quality_Q": 0.349662709236145,
+      "success": false
+    },
+    {
+      "pos_err_mm": 32.11218141697638,
+      "rot_err_deg": 0.3647702557820383,
+      "quality_Q": 0.7279806852340698,
+      "success": false
+    },
+    {
+      "pos_err_mm": 65.78983023414065,
+      "rot_err_deg": 56.94588234659829,
+      "quality_Q": 0.8051195859909057,
+      "success": false
+    },
+    {
+      "pos_err_mm": 25.32093288550016,
+      "rot_err_deg": 0.1606720861660338,
+      "quality_Q": 0.6460785746574402,
+      "success": false
+    },
+    {
+      "pos_err_mm": 97.59671781315751,
+      "rot_err_deg": 54.54962212995566,
+      "quality_Q": 0.7909335374832154,
+      "success": false
+    },
+    {
+      "pos_err_mm": 28.459623989791254,
+      "rot_err_deg": 0.7156682690369276,
+      "quality_Q": 0.6478756070137024,
+      "success": false
+    },
+    {
+      "pos_err_mm": 102.54089984693515,
+      "rot_err_deg": 60.48166889692622,
+      "quality_Q": 0.7965329408645629,
+      "success": false
+    },
+    {
+      "pos_err_mm": 126.70610757815365,
+      "rot_err_deg": 43.644035886176006,
+      "quality_Q": 0.879952359199524,
+      "success": false
+    },
+    {
+      "pos_err_mm": 84.95885002639336,
+      "rot_err_deg": 55.108564845374126,
+      "quality_Q": 0.7890095710754395,
+      "success": false
+    },
+    {
+      "pos_err_mm": 104.89360995477409,
+      "rot_err_deg": 38.76674236532293,
+      "quality_Q": 0.706817364692688,
+      "success": false
+    },
+    {
+      "pos_err_mm": 176.13554790144352,
+      "rot_err_deg": 40.57468178647746,
+      "quality_Q": 0.37963358163833616,
+      "success": false
+    },
+    {
+      "pos_err_mm": 20.672948844955354,
+      "rot_err_deg": 0.0,
+      "quality_Q": 0.5879659175872802,
+      "success": false
+    },
+    {
+      "pos_err_mm": 108.24760224242434,
+      "rot_err_deg": 42.10237659730716,
+      "quality_Q": 0.4045339524745941,
+      "success": false
+    },
+    {
+      "pos_err_mm": 47.0411531390705,
+      "rot_err_deg": 3.1187096993618155,
+      "quality_Q": 0.6109365940093994,
+      "success": false
+    },
+    {
+      "pos_err_mm": 243.9944481506848,
+      "rot_err_deg": 29.554077222286534,
+      "quality_Q": 0.0,
+      "success": false
+    },
+    {
+      "pos_err_mm": 29.063675935760138,
+      "rot_err_deg": 0.26578520384616855,
+      "quality_Q": 0.6691635489463806,
+      "success": false
+    },
+    {
+      "pos_err_mm": 136.02653056652014,
+      "rot_err_deg": 64.29667281549443,
+      "quality_Q": 0.39512264132499697,
+      "success": false
+    },
+    {
+      "pos_err_mm": 95.54853370097264,
+      "rot_err_deg": 18.815999705919396,
+      "quality_Q": 0.7846106052398683,
+      "success": false
+    },
+    {
+      "pos_err_mm": 104.66060320848567,
+      "rot_err_deg": 56.53398775809852,
+      "quality_Q": 0.8010096907615661,
+      "success": false
+    },
+    {
+      "pos_err_mm": 29.144380757891106,
+      "rot_err_deg": 0.7156683019739805,
+      "quality_Q": 0.6324842572212219,
+      "success": false
+    }
+  ]
+}

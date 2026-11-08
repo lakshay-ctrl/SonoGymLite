@@ -1,0 +1,14 @@
+{
+  "with_thread_limits": {
+    "steps": 360,
+    "elapsed_sec": 63.41,
+    "steps_per_sec": 5.68
+  },
+  "without_thread_limits": {
+    "steps": 480,
+    "elapsed_sec": 60.45,
+    "steps_per_sec": 7.94
+  },
+  "recommended_setting": "without_thread_limits",
+  "speedup_factor": 1.4
+}

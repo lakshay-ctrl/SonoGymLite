@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Environments
+.ipynb_checkpoints/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Heavy Checkpoints (distributed via scripts/download_weights.sh)
+*.pth
+*.pt
+*step*.zip
+ppo_checkpoints/
+sac_checkpoints/
+act_checkpoints/
+runs/
+
+# Volumetric / Finite Element meshes
+*.vtk
+
+# Temporary & output archives
+*.zip
+*.tar.gz
+scratch/
