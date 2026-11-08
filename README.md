@@ -79,7 +79,7 @@ Unlike traditional GPU-intensive simulators, SonoGymLite executes at **50–120 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/lakshaybatta/SonoGymLite.git
+git clone https://github.com/lakshay-ctrl/SonoGymLite.git
 cd SonoGymLite
 ```
 
