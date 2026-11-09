@@ -19,11 +19,11 @@
 
 ## Overview
 
-**SonoGymLite** is a lightweight, accessible, CPU-friendly robotic ultrasound simulation and benchmarking environment designed for developing and evaluating autonomous ultrasound scanning policies. Built on **PyBullet** physics and **OpenAI Gymnasium**, SonoGymLite couples Franka Emika Panda manipulator kinematics with realistic ultrasound image synthesis and compliant clinical surface contact modeling.
+**SonoGymLite** is a lightweight, accessible, CPU-friendly robotic ultrasound simulation and benchmarking environment designed for developing and evaluating autonomous ultrasound scanning policies. Built on **PyBullet** physics and **OpenAI Gymnasium**, SonoGymLite couples Franka Emika Panda manipulator kinematics with ultrasound image synthesis from patient CT and a surface-following probe controller.
 
 Unlike traditional GPU-intensive wave solvers, SonoGymLite executes at high throughput on standard commodity hardware:
 - **Workstation:** $120.1\,\text{steps/s}$ ($8.3\,\text{ms/step}$).
-- **Laptop (Apple Silicon M1):** $48.4 \pm 18.6\,\text{steps/s}$ ($15.2\text{--}24.9\,\text{ms/step}$).
+- **Laptop (Apple Silicon M1):** $48.4 \pm 18.6\,\text{steps/s}$.
 
 ```text
                                        ┌────────────────────────────────┐
@@ -70,8 +70,8 @@ Unlike traditional GPU-intensive wave solvers, SonoGymLite executes at high thro
    - **Learning-Based (LB):** 2-channel deep convolutional U-Net generator trained on clinical volunteer sweeps (Cavalcanti Spine Dataset).
 
 3. **Three Clinical Benchmark Tasks:**
-   - **Task 1 (Target Navigation):** Autonomous alignment of the ultrasound probe with clinical Standard Viewing Planes (SVPs) across three distinct anatomies (Lumbar Spine L4, Liver Portal Vein, Abdominal Aorta Bifurcation) evaluated over in-domain (`s0011`, `s0058`, `s0250`) and held-out test patients (`s0344`, `s0358`).
-   - **Task 2 (Volumetric Reconstruction):** Autonomous sweeping trajectory planning over patient spine anatomy coupled with deep U-Net slice segmentation and 3D voxel compounding, achieving approximately 60% bone surface coverage on the lumbar spine.
+   - **Task 1 (Target Navigation):** Autonomous alignment of the ultrasound probe with the landmark of a target anatomy for three anatomies (Lumbar Spine L4, Liver Portal Vein, Abdominal Aorta Bifurcation) evaluated over in-domain (`s0011`, `s0058`, `s0250`) and held-out test patients (`s0344`, `s0358`).
+   - **Task 2 (Volumetric Reconstruction):** Autonomous scanning of the surface of the target anatomy. PPO with a spatial memory covers about 60% of the upper spine surface on unseen patients.
    - **Task 3 (In-Plane Needle Guidance):** Biopsy guide attachment (`robotic_probe_needle_guide.urdf`) with in-plane ultrasound needle visualization, specular reflection physics ($V = \cos\theta$), and 24-azimuth bone corridor planning for obstacle-free trajectory selection.
 
 ---
@@ -128,7 +128,7 @@ python3 test_gym_env.py --headless
 ### 2. Interactive Ultrasound Scanning Simulator
 Manually control the robotic probe over the patient body with real-time B-mode ultrasound feedback:
 ```bash
-python3 live_unet_demo.py --sim-mode conv --anatomy spine
+python3 live_unet_demo.py --sim-mode conv
 ```
 
 ### 3. Interactive Needle Guidance Visualizer (Task 3)
@@ -180,23 +180,23 @@ python3 train_bc.py --anatomy spine --epochs 50
 
 ## Reproducing Paper Results
 
-All empirical benchmark results reported in the manuscript can be reproduced using the following commands (evaluated over 100 trials):
+The evaluation commands below use 100 trials and 300-step episodes, as in the paper. Pretrained checkpoints are not provided, so first train the policies with the commands in the Policy Training section.
 
 ```bash
 # Table 1: Goal-Conditioned Navigation Benchmark (100 trials across algorithms and anatomies)
-python3 run_full_benchmark.py --episodes 100
+python3 run_full_benchmark.py --episodes 100 --max-steps 300
 
 # Table 2: Image-Only Navigation Benchmark
-python3 eval_sonogym_benchmark.py --episodes-per-patient 100 --anatomy spine --sim-mode conv
+python3 eval_sonogym_benchmark.py --episodes-per-patient 100 --max-steps 300 --anatomy spine --sim-mode conv
 
 # Table 3: Volumetric Bone Reconstruction Coverage Comparison
-python3 compare_reconstruction_sweep.py --max-steps 150
+python3 compare_reconstruction_sweep.py --max-steps 300
 
 # Supplementary Material: Needle Geometric Feasibility & Acoustic Visibility Verification
 python3 scripts/step5_needle_verify.py --all
 
 # Supplementary Material: Navigation-to-Needle Hit Rate Coupling Benchmark
-python3 scripts/step5b_needle_nav_hit.py --reference-only
+python3 scripts/step5b_needle_nav_hit.py
 ```
 
 All raw outputs, machine-readable JSON logs, and summary tables are logged to `results/`.

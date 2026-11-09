@@ -260,7 +260,7 @@ def main():
     final_img = np.vstack([header, composite])
 
     # Save to workspace and brain artifact
-    out_brain = "/Users/lakshaybatta/.gemini/antigravity/brain/ffa78df7-4d76-453b-9869-bc9788f5cdf1/aura_needle_assembly_figure.png"
+    out_brain = "results/aura_needle_assembly_figure.png"
     cv2.imwrite(out_brain, final_img)
     cv2.imwrite("aura_needle_assembly_figure.png", final_img)
     print(f"Generated publication-quality figure: {out_brain}")

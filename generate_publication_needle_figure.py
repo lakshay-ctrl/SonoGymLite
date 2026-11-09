@@ -396,7 +396,7 @@ def main():
     out_figures.parent.mkdir(parents=True, exist_ok=True)
     cv2.imwrite(str(out_figures), composite)
 
-    out_brain = Path("/Users/lakshaybatta/.gemini/antigravity/brain/ffa78df7-4d76-453b-9869-bc9788f5cdf1/needle_guidance_publication_figure.png")
+    out_brain = Path("results/needle_guidance_publication_figure.png")
     cv2.imwrite(str(out_brain), composite)
 
     out_legacy = PROJECT_ROOT / "figures/aura_needle_assembly_figure.png"
