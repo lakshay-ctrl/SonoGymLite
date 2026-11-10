@@ -100,14 +100,18 @@ pip install -r requirements.txt
 ### Reference Patient
 Subject `s0058` is included directly in this repository under `totalseg_patients/s0058/` (containing `ct.nii.gz`, segmentation masks, `patient_skin.obj`, `bone_label.nii.gz`, and precomputed surface height maps) to provide an immediately runnable reference patient out of the box.
 
-### Full 5-Patient Cohort
-The full evaluation cohort comprises five subjects:
-- **In-Domain Training:** `s0011`, `s0058`, `s0250`
-- **Held-Out Test:** `s0344`, `s0358`
+### Patient Data
 
-Precomputed surface maps, registration metadata, and segmentation masks for all five subjects are provided in `totalseg_patients/`. To run multi-patient training across the remaining four subjects, download their corresponding full-body CT scans from the TotalSegmentator dataset on Zenodo:
-- **Zenodo Repository:** [https://zenodo.org/records/6802614](https://zenodo.org/records/6802614) (DOI: `10.5281/zenodo.6802614`)
-- Place the downloaded CT files as `ct.nii.gz` in each corresponding `totalseg_patients/<subject_id>/` directory.
+To strictly adhere to GitHub repository storage limits (<100 MB), only the CT scan of reference subject `s0058` is included in this repository. 
+
+To evaluate the full 5-patient cohort (`s0011`, `s0058`, `s0250`, `s0344`, `s0358`) and reproduce the paper's multi-organ results, download the CT scans and segmentations from the [TotalSegmentator Zenodo Dataset](https://zenodo.org/records/6802614) (DOI: `10.5281/zenodo.6802614`) and place them in `totalseg_patients/<id>/` as follows:
+
+- `ct.nii.gz`: the CT scan
+- `liver_full.nii.gz`: `liver.nii.gz` from TotalSegmentator
+- `aorta_full.nii.gz`: union of `aorta`, `common_iliac_artery_left`, `common_iliac_artery_right`, and `inferior_vena_cava`
+- `liver_vessels.nii.gz`: `portal_vein_and_splenic_vein.nii.gz` (optional, used for the vessel appearance in the liver images)
+
+> **Note:** If these files are missing, the liver and aorta tasks fall back to the bone label to prevent runtime crashes, but will not reproduce the paper's multi-organ results. To keep the repository within GitHub limits, users are requested to download the dataset themselves.
 
 ### Dataset Attribution & License
 The anatomical CT volumes and segmentations used in this platform are sourced from the **TotalSegmentator** dataset:
